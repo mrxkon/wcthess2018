@@ -993,3 +993,9 @@ body.error404 .search-form {
     display: block;
     content: '';
     height: 16px; }
+
+#primary-sidebar .widget-title{
+  font-size: 10.6rem
+}
+
+
