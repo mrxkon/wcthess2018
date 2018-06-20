@@ -1,6 +1,6 @@
 /**!
- * Theme Name: Thessaloniki Theme 2018
- * Template: campsite-201715215
+ * Theme Name: Thessaloniki 2018
+ * Template: campsite-2017
  */
 * {
   -webkit-box-sizing: border-box;
@@ -12,7 +12,7 @@ html {
 body {
   color: #1d215f;
   font-family: "proxima-nova", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-size: 2rem;
   line-height: 1.55; }
 
@@ -376,7 +376,7 @@ a.cta-button {
     content: ''; }
   .custom-header:before {
     height: 300px;
-    /* background: transparent url("http://svg.redradar.net/boston-2018/teal-tri.svg") no-repeat center;*/
+    background: transparent url("http://svg.redradar.net/boston-2018/teal-tri.svg") no-repeat center;
     background-size: 100% 100%; }
   .custom-header:after {
     bottom: -1px;
@@ -993,9 +993,3 @@ body.error404 .search-form {
     display: block;
     content: '';
     height: 16px; }
-
-#primary-sidebar .widget-title{
-  font-size: 10.6rem
-}
-
-
