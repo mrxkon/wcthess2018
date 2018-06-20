@@ -993,3 +993,14 @@ body.error404 .search-form {
     display: block;
     content: '';
     height: 16px; }
+
+@media (min-width: 1160px)
+.page-navigation-container:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: calc(50vw + 580px);
+    background: #1d215f;
+}
