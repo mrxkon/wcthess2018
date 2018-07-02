@@ -722,7 +722,7 @@ body.home .entry-content {
   font-size: 20px;
   font-size: 2rem;
   line-height: 1.55;
-  color: #ffffff;
+  color: #010101;
   text-align: center;
   margin: auto; }
   body.home .entry-content .cfa-title {
@@ -731,8 +731,8 @@ body.home .entry-content {
     font-size: 56px;
     font-size: 5.6rem;
     line-height: 1.1;
-    font-family: "freight-sans-condensed-pro", sans-serif;
-    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
     text-align: center; }
   body.home .entry-content a {
     display: inline-block;
