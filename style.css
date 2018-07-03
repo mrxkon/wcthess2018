@@ -11,8 +11,6 @@ Navigation Menu
 ***************************/
 
 
-
-
 /**************************
 Big Hero Image Index Page
 ***************************/
@@ -53,8 +51,9 @@ text-align: center;
   cursor: pointer;
   height:auto;
 }
-/* End here */
 
+
+/* End here */
 
 * {
   -webkit-box-sizing: border-box;
@@ -447,8 +446,7 @@ body:not(.home) .custom-header:after {
 
 .widget {
   margin: 0; }
-  .widget + .widget {
-    margin-top: 30px; }
+
 
 #content-widget-1 {
   margin: 0 auto;
