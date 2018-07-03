@@ -1061,7 +1061,7 @@ body.error404 .search-form {
   display: block;
   background-color: #2A2878;
 }
-.page-navigation-container.toggled-on  .menu-primary-nav-container{
+.page-navigation-container.toggled-on .menu-primary-nav-container{
   width: 100%;
   display: block;
   height: auto;
