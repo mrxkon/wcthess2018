@@ -361,8 +361,11 @@ a.cta-button {
       color: #1d215f; } }
 
 .custom-header {
-  background: #1d215f;
-  position: relative; }
+  background-image: url("https://2018.thessaloniki.wordcamp.org/files/2018/07/big_hero@2x.jpg");
+  background-size: auto auto;
+background-size: cover;
+
+}
   .custom-header .wp-custom-header,
   .custom-header .custom-logo-link {
     display: block;
