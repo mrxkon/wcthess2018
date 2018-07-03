@@ -1059,8 +1059,21 @@ body.error404 .search-form {
 /* Small menu. */
 .page-navigation-container.toggled-on ul {
   display: block;
+  background-color: #2A2878;
 }
-
+.page-navigation-container.toggled-on  .menu-primary-nav-container{
+  width: 100%;
+}
+.page-navigation-container.toggled-on a{
+  color:#fff;
+}
+.page-navigation-container.toggled-on .menu-primary-nav-container{
+height:auto;
+}
+.page-navigation-container.toggled-on .menu-primary-nav-container  li{
+  float:none;
+  text-align: left;
+}
 .menu-toggle,
 .dropdown-toggle {
   display: none;
