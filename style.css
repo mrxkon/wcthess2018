@@ -342,7 +342,9 @@ a.cta-button {
 
 .js .menu-toggle {
   width: 100%; }
-
+.js .menu-toggle, .js .dropdown-toggle {
+    display: none;
+}
 @media screen and (max-width: 37.5em) {
   .js .dropdown-toggle {
     display: none; }
