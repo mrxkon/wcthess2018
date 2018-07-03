@@ -281,7 +281,7 @@ a.cta-button {
   .page-navigation-container .menu-primary-nav-container {
     margin: 0 auto;
     /* max-width: 1160px;*/
-    width: auto;
+    width: 50%;
     position: relative; }
   .page-navigation-container a {
     padding: 30px 20px;
