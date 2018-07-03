@@ -1036,6 +1036,9 @@ body.error404 .search-form {
   top: 3.9em;
   left: -999em;
   z-index: 99999;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #312F76;
+  color:#fff;
 }
 .page-navigation-container ul ul ul {
   left: -999em;
@@ -1043,9 +1046,6 @@ body.error404 .search-form {
 }
 .page-navigation-container ul ul li:hover > ul, .page-navigation-container ul ul li.focus > ul {
   left: 100%;
-}
-.page-navigation-container ul ul li a {
-  color: #000!important;
 }
 .page-navigation-container ul li:hover > ul,
 .page-navigation-container ul li.focus > ul {
