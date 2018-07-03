@@ -294,7 +294,7 @@ a.cta-button {
     font-weight: 400; }
   .page-navigation-container li:hover,
   .page-navigation-container li.focus {
-    background: #ffffff; }
+    background: #2A2878; }
     .page-navigation-container li:hover a,
     .page-navigation-container li.focus a {
       color: #a00a74;
@@ -309,7 +309,7 @@ a.cta-button {
       width: 17em; }
     .page-navigation-container ul ul li:hover a,
     .page-navigation-container ul ul li.focus a {
-      color: #1d215f;
+      color: #2A2878;
       margin-left: -15px; }
       .page-navigation-container ul ul li:hover a:before,
       .page-navigation-container ul ul li.focus a:before {
