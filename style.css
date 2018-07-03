@@ -1008,7 +1008,7 @@ body.error404 .search-form {
     content: '';
     height: 16px; }
 
-@media (min-width: 1160px)
+@media (min-width: 1160px){
 .page-navigation-container:after {
     content: '';
     position: absolute;
@@ -1017,4 +1017,100 @@ body.error404 .search-form {
     right: 0;
     left: calc(50vw + 580px);
     background: #1d215f;
+}
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.page-navigation-container {
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
+}
+.page-navigation-container ul {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.page-navigation-container ul ul {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  float: left;
+  position: absolute;
+  top: 1.5em;
+  left: -999em;
+  z-index: 99999;
+}
+.page-navigation-container ul ul ul {
+  left: -999em;
+  top: 0;
+}
+.page-navigation-container ul ul li:hover > ul, .page-navigation-container ul ul li.focus > ul {
+  left: 100%;
+}
+.page-navigation-container ul ul a {
+  width: 200px;
+}
+.page-navigation-container ul li:hover > ul,
+.page-navigation-container ul li.focus > ul {
+  left: auto;
+}
+.page-navigation-container li {
+  float: left;
+  position: relative;
+}
+.page-navigation-container a {
+  display: block;
+  text-decoration: none;
+}
+
+/* Small menu. */
+.page-navigation-container.toggled-on ul {
+  display: block;
+}
+
+.menu-toggle,
+.dropdown-toggle {
+  display: none;
+}
+
+.js .menu-toggle,
+.js .dropdown-toggle {
+  display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+  .js .menu-toggle,
+  .js .dropdown-toggle {
+    display: none;
+  }
+
+  .page-navigation-container ul {
+    display: block;
+  }
+}
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
 }
