@@ -37,17 +37,21 @@ p.site-description {
 /***********************
 Widgets After Big Hero
 ***********************/
-#content-widget-1 .widget {
-  margin-top: 90px;
-}
+
 #content-widget-1 h2 {
-  text-transform: uppercase;
-  font-weight: 400;
+ display: none;
 }
 
 #custom_html-7, #custom_html-8, #custom_html-9, #custom_html-10{
 width: 290px;
 text-align: center;
+}
+
+.textwidget.custom-html-widget img{
+  width:100%;
+  display: block;
+  cursor: pointer;
+  height:auto;
 }
 /* End here */
 
@@ -459,12 +463,7 @@ body:not(.home) .custom-header:after {
   bottom: 95px;
 }
 
-  #content-widget-1 .custom-html-widget {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-    padding-left: 20px;
-    padding-right: 20px; }
+
   #content-widget-1 .widget + .widget {
     margin-top: 90px; }
   #content-widget-1 .level-1 {
