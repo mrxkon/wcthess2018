@@ -210,7 +210,7 @@ a.cta-button {
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: inherit;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -360,7 +360,7 @@ a.cta-button {
       text-decoration: none; }
   .page-navigation-container a:focus {
     background: #ffffff;
-    color: #a00a74 !important; }
+    color: #000 !important; }
   .page-navigation-container a {
     padding: 10px !important; }
   .page-navigation-container ul ul {
