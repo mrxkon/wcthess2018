@@ -279,9 +279,9 @@ a.cta-button {
   z-index: 1;
   background: #fff; }
   .page-navigation-container .menu-primary-nav-container {
-    margin: 0 auto;
+    display: inline-block;
     /* max-width: 1160px;*/
-    width: 50%;
+    /* width: 50%;*/
     position: relative; }
   .page-navigation-container a {
     padding: 30px 15px;
@@ -1015,8 +1015,8 @@ body.error404 .search-form {
 .page-navigation-container {
   clear: both;
   display: block;
-  float: left;
   width: 100%;
+  text-align: center;
 }
 .page-navigation-container ul {
   display: none;
