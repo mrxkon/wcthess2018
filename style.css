@@ -5,7 +5,9 @@
 
 
  /* Additional Code goes here  */
-
+ .site-branding{
+  text-align:center;
+}
 
 h1.site-title a,
 p.site-description{
