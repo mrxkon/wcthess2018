@@ -2,6 +2,18 @@
  * Theme Name: Thessaloniki 2018
  * Template: campsite-2017
  */
+
+
+ /* Additional Code goes here  */
+
+.site-branding{
+  text-align:center;
+  text-transform: uppercase;
+  color:#fff;
+}
+
+
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
