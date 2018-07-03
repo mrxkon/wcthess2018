@@ -33,7 +33,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-size: 2rem;
-  line-height: 1.55; }
+  line-height: 1.55;
+  margin-top: 0px;
+}
 
 button,
 input,
@@ -278,7 +280,7 @@ a.cta-button {
   background: #fff; }
   .page-navigation-container .menu-primary-nav-container {
     margin: 0 auto;
-    max-width: 1160px;
+    /* max-width: 1160px;*/
     position: relative; }
   .page-navigation-container a {
     padding: 30px 20px;
