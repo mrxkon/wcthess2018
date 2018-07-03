@@ -308,7 +308,7 @@ a.cta-button {
     padding: 10px 0 20px; }
     .page-navigation-container ul ul a {
       padding: 8px 30px;
-      color: #a00a74;
+      color: #000;
       width: 17em; }
     .page-navigation-container ul ul li:hover a,
     .page-navigation-container ul ul li.focus a {
@@ -1048,6 +1048,7 @@ body.error404 .search-form {
 }
 .page-navigation-container ul ul a {
   width: 200px;
+  color: #000;
 }
 .page-navigation-container ul li:hover > ul,
 .page-navigation-container ul li.focus > ul {
