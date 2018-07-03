@@ -1,4 +1,4 @@
-/**!
+/**
  * Theme Name: Thessaloniki 2018
  * Template: campsite-2017
  */
@@ -275,7 +275,7 @@ a.cta-button {
 .page-navigation-container {
   position: relative;
   z-index: 1;
-  background: #a00a74; }
+  background: #fff; }
   .page-navigation-container .menu-primary-nav-container {
     margin: 0 auto;
     max-width: 1160px;
@@ -390,7 +390,7 @@ background-size: cover;
     display: block;
     margin: 0 auto;
     padding: 200px 0px 0px 0px;
-   text-align:center; 
+   text-align:center;
   }
 
 /* Try a smaller logo on interior pages */
@@ -498,6 +498,9 @@ body:not(.home) .custom-header:after {
 #primary-sidebar {
   margin-top: 60px;
   overflow: hidden; }
+  .page-navigation-container{
+    float:none;
+  }
   #primary-sidebar .widget-title {
     font-size: 56px;
     font-size: 5.6rem;
