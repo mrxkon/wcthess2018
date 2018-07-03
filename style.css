@@ -320,7 +320,7 @@ a.cta-button {
   .page-navigation-container .callout {
     position: absolute;
     right: 0;
-    background: #1d215f; }
+    background: #fff; }
     .page-navigation-container .callout a {
       padding: 30px 50px; }
     .page-navigation-container .callout:hover, .page-navigation-container .callout.focus {
