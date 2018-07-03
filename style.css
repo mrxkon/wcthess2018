@@ -282,16 +282,16 @@ a.cta-button {
     position: relative; }
   .page-navigation-container a {
     padding: 30px 20px;
-    color: #ffffff;
+    color: #000;
     font-size: 18px;
     font-size: 1.8rem;
     font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
+    text-transform: inherit;
+    letter-spacing: 0px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     line-height: 1;
-    font-weight: 900; }
+    font-weight: 400; }
   .page-navigation-container li:hover,
   .page-navigation-container li.focus {
     background: #ffffff; }
@@ -1011,7 +1011,6 @@ body.error404 .search-form {
 @media (min-width: 1160px){
 .page-navigation-container:after {
     content: '';
-    position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
