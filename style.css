@@ -5,6 +5,14 @@
 
 
  /* Additional Code goes here  */
+
+/**************************
+Navigation Menu
+***************************/
+
+/**************************
+Big Hero Index Page
+***************************/
  .site-branding{
   text-align:center;
   padding:25px 0 185px 0;
@@ -20,6 +28,22 @@ p.site-description{
 p.site-description {
   font-weight: 300;
 }
+
+/***********************
+Widgets After Big Hero
+***********************/
+
+#content-widget-1 h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#custom_html-7{
+width: 290px;
+text-align: center;
+}
+/* End here */
+
 
 * {
   -webkit-box-sizing: border-box;
@@ -416,7 +440,16 @@ body:not(.home) .custom-header:after {
 #content-widget-1 {
   margin: 0 auto;
   max-width: 1160px;
-  margin-bottom: 120px; }
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #fff;
+  box-shadow: 0px 0px 25px 0.75px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  height: 200px;
+  position: relative;
+  bottom: 95px;
+}
+
   #content-widget-1 .custom-html-widget {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
