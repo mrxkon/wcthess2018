@@ -361,6 +361,10 @@ a.cta-button {
     .page-navigation-container li.focus a {
       color: #ffffff;
       text-decoration: none; }
+   .page-navigation-container li:hover ul a,
+  .page-navigation-container li.focus ul a {
+        color: #000;
+        text-decoration: none; }
   .page-navigation-container a:focus {
     background: #ffffff;
     color: #000 !important; }
@@ -1031,7 +1035,7 @@ body.error404 .search-form {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
   position: absolute;
-  top: 1.5em;
+  top: 3.9em;
   left: -999em;
   z-index: 99999;
 }
