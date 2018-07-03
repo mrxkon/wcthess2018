@@ -14,7 +14,7 @@ Navigation Menu
 
 
 /**************************
-Big Hero Index Page
+Big Hero Image Index Page
 ***************************/
  .site-branding{
   text-align:center;
@@ -463,9 +463,6 @@ body:not(.home) .custom-header:after {
   bottom: 95px;
 }
 
-
-  #content-widget-1 .widget + .widget {
-    margin-top: 90px; }
   #content-widget-1 .level-1 {
     grid-column: 1 / span 2;
     font-size: 56px;
