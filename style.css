@@ -1041,8 +1041,6 @@ body.error404 .search-form {
 }
 .page-navigation-container ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  float: left;
-  position: absolute;
   top: 1.5em;
   left: -999em;
   z-index: 99999;
