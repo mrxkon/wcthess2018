@@ -1046,7 +1046,7 @@ body.error404 .search-form {
 .page-navigation-container ul ul li:hover > ul, .page-navigation-container ul ul li.focus > ul {
   left: 100%;
 }
-.page-navigation-container ul ul a {
+.page-navigation-container ul ul li a {
   width: 200px;
   color: #000;
 }
