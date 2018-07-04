@@ -741,11 +741,15 @@ body:not(.home) .site-main {
   margin: 20px 0 0; }
 
 .post-navigation {
-  border-top: 1px solid #89dfee;
-  border-bottom: 1px solid #89dfee;
+  border-top: 1px solid #c2b59b;
+  border-bottom: 1px solid #c2b59b;
   padding: 10px 0;
   font-size: 16px;
-  font-size: 1.6rem; }
+  font-size: 1.6rem; 
+  position: relative;
+  top: 25px;
+
+}
   .post-navigation a {
     color: #1d215f; }
     .post-navigation a:hover, .post-navigation a:active, .post-navigation a:focus {
