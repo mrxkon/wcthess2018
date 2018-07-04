@@ -4,15 +4,17 @@
  */
 
 
- /* Additional Code goes here  */
+/*************************************
+<---- ADDITIONAL CODE GOES HERE ----->
+*************************************/
 
 /**************************
-Navigation Menu
+      Navigation Menu
 ***************************/
 
 
 /**************************
-Big Hero Image Index Page
+  Big Hero Image Index Page
 ***************************/
  .site-branding{
   text-align:center;
@@ -34,8 +36,9 @@ p.site-description {
   color: #fff;
   text-decoration: none;
 }
+
 /***********************
-Widgets After Big Hero
+ Widgets After Big Hero
 ***********************/
 
 #content-widget-1 h2 {
@@ -65,7 +68,19 @@ text-align: center;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 
-/* End here */
+}
+/***********************
+     Single Article
+***********************/
+  a.more-link {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+/***********************
+<---- END HERE ------->
+***********************/
 
 * {
   -webkit-box-sizing: border-box;
