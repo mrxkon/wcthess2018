@@ -30,7 +30,10 @@ p.site-description {
   font-weight: 300;
 }
 
-
+.site-title a:hover {
+  color: #fff;
+  text-decoration: none;
+}
 
 /***********************
 Widgets After Big Hero
