@@ -34,7 +34,6 @@ p.site-description {
   color: #fff;
   text-decoration: none;
 }
-
 /***********************
 Widgets After Big Hero
 ***********************/
@@ -116,10 +115,10 @@ img {
   vertical-align: middle; }
 
 a, a:visited {
-  color: #a00a74;
+  color: #1d1c65;
   text-decoration: none; }
   a:hover, a:active, a:focus, a:visited:hover, a:visited:active, a:visited:focus {
-    color: #880963;
+    color: #28267a;
     text-decoration: underline; }
 
 .entry-title {
