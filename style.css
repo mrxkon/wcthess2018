@@ -243,7 +243,7 @@ a.cta-button {
   display: inline-block;
   margin: 0;
   padding: 12px 20px 15px;
-  border-radius: 0;
+  border-radius: 25px;
   border: none;
   text-shadow: none;
   -webkit-box-shadow: none;
@@ -251,11 +251,13 @@ a.cta-button {
   font-size: 28px;
   font-size: 2.8rem;
   line-height: 1;
-  font-weight: 900;
+  font-weight: 800;
   text-align: center;
   text-decoration: none;
-  color: #1d215f;
-  background: #38ccd5;
+  color:  rgb(255, 255, 255);
+  background: rgb(40, 38, 122);
+  border-width: 4px;
+  border-color: rgb(194, 181, 155);
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: bold;
