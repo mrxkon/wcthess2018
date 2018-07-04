@@ -780,32 +780,10 @@ body:not(.home) .site-main {
 body.home .entry-header,
 body.home .entry-footer {
   max-width:780px;
-  margin:0 auto;
+  margin:0 auto 30px auto;
 
 }
-   /*
-body.home .hentry {
 
-  position: relative;
-
-  height: 100vh;
-  min-height: 600px;
-  max-height: 960px;
-background: url("http://svg.redradar.net/boston-2018/photo.png") no-repeat center;
-  background-size: cover;
-  display: grid; }
-  body.home .hentry:after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    right: 0;
-    height: 20vh;
-    min-height: 120px;
-    max-height: 192px;
-    /*background: transparent url("http://svg.redradar.net/boston-2018/white-tri-flip.svg") no-repeat center;
-    background-size: 100% 100%; }
-*/
 body.home .entry-content {
   max-width: 780px;
   font-size: 20px;
