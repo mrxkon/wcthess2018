@@ -49,6 +49,11 @@ h1.site-title a{
   font-weight:800;
 }
 
+p.site-title a:hover,
+h1.site-title a:hover{
+  color:#fff;
+}
+
 /***********************
  Widgets After Big Hero
 ***********************/
