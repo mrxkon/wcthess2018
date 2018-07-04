@@ -345,8 +345,6 @@ a.cta-button {
   .page-navigation-container .menu-primary-nav-container {
     display: inline-block;
     height: 65px;
-    /* max-width: 1160px;*/
-    /* width: 50%;*/
     position: relative; }
   .page-navigation-container a {
     padding: 30px 15px;
@@ -388,15 +386,7 @@ a.cta-button {
       background: #ff9700; }
       .page-navigation-container .callout:hover a, .page-navigation-container .callout.focus a {
         color: #1d215f; }
-  /* @media (min-width: 1160px) {
-    .page-navigation-container:after {
-      content: '';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: calc( 50vw + 580px);
-      background: #1d215f; } } */
+
 
 #site-navigation {
   display: none !important; }
@@ -760,7 +750,7 @@ body:not(.home) .site-main {
   border-bottom: 1px solid #c2b59b;
   padding: 10px 0;
   font-size: 16px;
-  font-size: 1.6rem; 
+  font-size: 1.6rem;
   position: relative;
   top: 25px;
 
@@ -782,7 +772,7 @@ body.home .entry-footer {
   margin:0 auto;
 
 }
-   /* 
+   /*
 body.home .hentry {
 
   position: relative;
@@ -1124,6 +1114,8 @@ body.error404 .search-form {
 }
 
 /* Small menu. */
+@media screen and (max-width: 800px) {
+
 .page-navigation-container.toggled-on ul {
   display: block;
   background-color: #2A2878;
@@ -1149,7 +1141,7 @@ height: auto;
 .js .dropdown-toggle {
   display: block;
 }
-
+}
 @media screen and (min-width: 37.5em) {
   .js .menu-toggle,
   .js .dropdown-toggle {
