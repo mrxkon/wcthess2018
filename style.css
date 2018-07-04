@@ -37,6 +37,11 @@ p.site-description {
   text-decoration: none;
 }
 
+.updated,
+h2.widget-title{
+  display: none;
+}
+
 /***********************
  Widgets After Big Hero
 ***********************/
