@@ -1076,6 +1076,10 @@ body.error404 .search-form {
   width: 100%;
   text-align: center;
 }
+.page-navigation-container button.menu-toggle {
+  border-radius: 0px;
+}
+
 .page-navigation-container ul {
   display: none;
   list-style: none;
