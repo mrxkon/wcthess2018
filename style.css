@@ -1114,7 +1114,7 @@ body.error404 .search-form {
 }
 
 /* Small menu. */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 760px) {
 
 .page-navigation-container.toggled-on ul {
   display: block;
