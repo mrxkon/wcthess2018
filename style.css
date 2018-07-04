@@ -469,6 +469,7 @@ body:not(.home) .custom-header:after {
   height: 200px;
   position: relative;
   bottom: 95px;
+  padding:0 20px;
 }
 
   #content-widget-1 .level-1 {
