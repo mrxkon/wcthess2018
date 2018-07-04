@@ -81,6 +81,10 @@ text-align: center;
     display: inline-block;
     margin-top: 15px;
 }
+.entry-header{
+  text-align: center;
+  margin:45px 0 35px 0;
+}
 
 .entry-content img.size-full {
   width: 140%;
