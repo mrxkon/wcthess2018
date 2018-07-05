@@ -128,6 +128,7 @@ text-align: center;
 /***********************
      Buy Tickets widgets
 ***********************/
+#footer-widgets,
 #footer-widget-2{
   background-color:rgba(247, 247, 247, 1)
 }
