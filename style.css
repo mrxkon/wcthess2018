@@ -13,6 +13,7 @@
      General
 ***************************/
 .updated,
+#footer-widget-1 h2.widget-title,
 #header-widget-1 h2.widget-title{
   display: none;
 }
