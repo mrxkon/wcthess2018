@@ -1112,10 +1112,12 @@ body.error404 .search-form {
   margin-bottom: 60px; }
 
 .site-info {
-  padding: 0 0 60px;
+  padding: 0 0 30px;
   text-align: center;
   font-size: 16px;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+margin-top:40px;
+}
   .site-info a {
     color: #1d215f;
     text-decoration: underline; }
