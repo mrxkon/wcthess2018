@@ -161,7 +161,7 @@ text-align: center;
 
 #footer-widget-1 .widget-title::after {
   content: '';
-  background: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_2018_dots@2x.png');
+  background: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_2018_dots@1x.png');
   width: 180px;
   display: block;
   position: absolute;
