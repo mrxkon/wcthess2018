@@ -810,17 +810,10 @@ body:not(.home) .site-main {
 .entry-footer {
   font-size: 16px;
   font-size: 1.6rem; }
-  .entry-header span + span,
-  .entry-footer span + span {
-    margin-left: 8px; }
   .entry-header .byline,
   .entry-footer .byline {
-    display: block; }
-    /*
-    body.single .entry-header .byline, body.single
-    .entry-footer .byline {
-      display: inline;
-      margin-left: 4px; } */
+    display: inline; }
+
 
 .entry-title {
   margin-top: 0;
