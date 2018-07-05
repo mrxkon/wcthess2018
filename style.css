@@ -157,7 +157,7 @@ text-align: center;
   z-index: 400;
 }
 /***********************
-     Sponsors
+     Sponsors widgets 
 ***********************/
 #footer-widgets,
 #footer-widget-2{
@@ -178,7 +178,7 @@ text-align: center;
 }
 
 /***********************
-     Subscribe
+   Subscribe widgets
 ***********************/
 #footer-widget-3{
   background-color: rgba(194, 181, 155, 1);
@@ -211,6 +211,15 @@ text-align: center;
 z-index: 500;
 }
 
+/***********************
+   Subscribe widgets
+***********************/
+#footer-widget-4 {
+  padding: 85px 0 85px;
+  border-bottom: 4px solid #c2b59b;}
+  #jetpack_widget_social_icons-2{
+    text-align: center!important;
+  }
 /***********************
 <---- END HERE ------->
 ***********************/
