@@ -660,7 +660,7 @@ a.cta-button {
 .js .menu-toggle, .js .dropdown-toggle {
     display: none;
 }
-.page-navigation-container li.menu-item-has-children a:after{
+.page-navigation-container li.menu-item-has-children > a:after{
   content: "\f140";
   font-family: dashicons;
   position: absolute;
