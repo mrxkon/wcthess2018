@@ -828,7 +828,9 @@ position: relative;
     color: #28267a; 
   position:relative;
   z-index: 600;
-  
+  font-size:38px;
+  font-size:3.8rem;
+  font-weight:800;
   }
   #footer-widget-1 form {
     display: grid;
