@@ -815,11 +815,12 @@ body:not(.home) .site-main {
     margin-left: 8px; }
   .entry-header .byline,
   .entry-footer .byline {
-    display: none; }
+    display: block; }
+    /*
     body.single .entry-header .byline, body.single
     .entry-footer .byline {
       display: inline;
-      margin-left: 4px; }
+      margin-left: 4px; } */
 
 .entry-title {
   margin-top: 0;
