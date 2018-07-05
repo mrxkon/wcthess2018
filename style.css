@@ -144,6 +144,11 @@ text-align: center;
   text-align:center;
 }
 
+#media_image-2 img{
+  display: block;
+  margin:0 auto;
+}
+
 /***********************
      Subscribe
 ***********************/
