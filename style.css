@@ -848,14 +848,14 @@ body:not(.home) .site-main {
     content: '\2192';
     margin-left: 4px; }
 
-body.home .entry-header,
-body.home .entry-footer {
+.entry-header,
+.entry-footer {
   max-width:780px;
   margin:0 auto 30px auto;
 
 }
 
-body.home .entry-content {
+.entry-content {
   max-width: 780px;
   font-size: 20px;
   font-size: 2rem;
@@ -863,7 +863,7 @@ body.home .entry-content {
   color: #010101;
   text-align: left;
   margin: auto; }
-  body.home .entry-content .cfa-title {
+.entry-content .cfa-title {
     display: block;
     margin-bottom: 30px;
     font-size: 56px;
@@ -872,7 +872,7 @@ body.home .entry-content {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     text-align: center; }
-  body.home .entry-content a {
+ .entry-content a {
     text-decoration: underline;
     color: #28267a;
     }
