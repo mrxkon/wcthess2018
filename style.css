@@ -817,10 +817,10 @@ position: relative;
   #footer-widget-1 .widget-title {
     margin-top: 0;
     color: white;
-    font-size: 42px;
-    font-size: 4.2rem;
+    font-size: 60px;
+    font-size: 6rem;
     line-height: 1.2;
-    text-align: center; }
+    text-align: left; }
   #footer-widget-1 .widget {
     margin: 0 auto;
     max-width: 780px;
