@@ -126,6 +126,13 @@ text-align: center;
 }
 
 /***********************
+     Buy Tickets widgets
+***********************/
+#footer-widget-2{
+  background-color:rgba(247, 247, 247, 1)
+}
+
+/***********************
 <---- END HERE ------->
 ***********************/
 
@@ -730,7 +737,7 @@ body:not(.home) .custom-header:after {
   #footer-widget-1 .widget {
     margin: 0 auto;
     max-width: 780px;
-    color: #ffffff; }
+    color: #28267a; }
   #footer-widget-1 form {
     display: grid;
     grid-template-columns: 1fr 200px; }
