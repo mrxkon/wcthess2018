@@ -293,9 +293,9 @@ margin:0 auto;
 
   #subscribe-email input[type="email"]:focus{
     border-radius: 25px 0px 0px 25px!important;
-    -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.17);
-    -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.17);
-    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: inset 0px 0px 5px rgba(40, 38, 122, 0.37);
+    -moz-box-shadow:  inset 0px 0px 5px rgba(40, 38, 122, 0.37);
+    box-shadow: inset 0px 0px 5px rgba(40, 38, 122, 0.37);
   }
 
  
