@@ -264,9 +264,10 @@ a.btn.btn-info {
   padding: 145px 0 425px 0;
 }
 
-#wcorg_mailchimp_wiget-2{
-  position: relative;
-z-index: 500;
+#blog_subscription-2{
+  position:relative;
+  z-index: 600;
+
 }
 
 /***********************
