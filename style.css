@@ -660,6 +660,12 @@ a.cta-button {
 .js .menu-toggle, .js .dropdown-toggle {
     display: none;
 }
+.page-navigation-container li.menu-item-has-children:after{
+  content: "\f140";
+  font-family: dashicons;
+
+}
+
 @media screen and (max-width: 37.5em) {
   .js .dropdown-toggle {
     display: none; }
