@@ -161,6 +161,8 @@ position: relative;
     text-align: left; 
   position: relative;
   }
+
+  #footer-widget-3 .widget,
   #footer-widget-1 .widget {
     margin: 0 auto;
     max-width: 780px;
@@ -185,6 +187,7 @@ position: relative;
   z-index: 400;
 }
 
+#footer-widget-3 .widget-title::after,
 #footer-widget-1 .widget-title::after {
   content: '';
   background: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_2018_dots@1x.png');
