@@ -707,6 +707,7 @@ a.cta-button {
   -o-background-size: cover;
   background-size: cover;
 height:960px;
+position: relative;
 }
   .custom-header .wp-custom-header,
   .custom-header .custom-logo-link {
