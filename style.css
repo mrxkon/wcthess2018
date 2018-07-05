@@ -725,7 +725,7 @@ body:not(.home) .custom-header:after {
 
 #footer-widget-1 {
   background: #c2b59b;
-  margin: 120px 0 60px;
+  margin: 120px 0 0;
   padding: 120px 20px; }
   #footer-widget-1 .widget-title {
     margin-top: 0;
