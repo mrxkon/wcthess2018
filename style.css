@@ -485,15 +485,17 @@ a.cta-button {
 
 .custom-header {
   background-image: url("https://2018.thessaloniki.wordcamp.org/files/2018/07/big_hero@2x.jpg");
-  background-size: auto auto;
-background-size: cover;
-
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+height:960px;
 }
   .custom-header .wp-custom-header,
   .custom-header .custom-logo-link {
     display: block;
     margin: 0 auto;
-    padding: 200px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
    text-align:center;
   }
 
