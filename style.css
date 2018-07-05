@@ -1337,7 +1337,7 @@ margin-top:40px;
 }
 
 /* Small menu. */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 860px) {
 
 .menu-toggle,
 .dropdown-toggle {
