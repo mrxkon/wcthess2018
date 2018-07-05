@@ -158,6 +158,15 @@ text-align: center;
   transform: skewY(-3deg);
   z-index: 400;
 }
+
+#footer-widget-1 .widget-title::after {
+  content: '';
+  background: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_2018_dots@2x.png');
+  width: 180px;
+  display: block;
+  position: absolute;
+  height: 11px;
+}
 /***********************
      Sponsors Widgets 
 ***********************/
@@ -820,7 +829,9 @@ position: relative;
     font-size: 60px;
     font-size: 6rem;
     line-height: 1.2;
-    text-align: left; }
+    text-align: left; 
+  position: relative;
+  }
   #footer-widget-1 .widget {
     margin: 0 auto;
     max-width: 780px;
