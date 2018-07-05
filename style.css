@@ -7,6 +7,8 @@
 /*************************************
 <---- ADDITIONAL CODE GOES HERE ----->
 *************************************/
+
+
 /**************************
      General
 ***************************/
@@ -217,8 +219,12 @@ z-index: 500;
 #footer-widget-4 {
   padding: 85px 0 85px;
   border-bottom: 4px solid #c2b59b;}
+
   #jetpack_widget_social_icons-2{
     text-align: center!important;
+  }
+  .jetpack_widget_social_icons ul.size-large a{
+    margin-left:10px;
   }
 /***********************
 <---- END HERE ------->
