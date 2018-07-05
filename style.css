@@ -115,6 +115,7 @@ text-align: center;
   bottom: 95px;
   padding: 0 20px;
 }
+
 /***********************
      Single Article
 ***********************/
@@ -569,20 +570,6 @@ body:not(.home) .custom-header:after {
 .widget {
   margin: 0; }
 
-
-#content-widget-1 {
-  margin: 0 auto;
-  max-width: 1160px;
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: #fff;
-  box-shadow: 0px 0px 25px 0.75px rgba(0, 0, 0, 0.16);
-  border-radius: 20px;
-  height: 200px;
-  position: relative;
-  bottom: 95px;
-  padding:0 20px;
-}
 
   #content-widget-1 .level-1 {
     grid-column: 1 / span 2;
