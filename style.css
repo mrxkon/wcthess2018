@@ -617,7 +617,7 @@ a.cta-button {
     font-weight: 400; }
   .page-navigation-container li:hover,
   .page-navigation-container li.focus {
-    background: #302579; }
+    background: #2d2d77; }
     .page-navigation-container li:hover a,
     .page-navigation-container li.focus a {
       color: #fff;
@@ -1298,7 +1298,7 @@ margin-top:40px;
   left: -999em;
   z-index: 99999;
   border-radius: 0px 0px 5px 5px;
-  background-color: #302579;
+  background-color: #2d2d77;
   color:#fff;
 }
 .page-navigation-container ul ul ul {
@@ -1331,7 +1331,7 @@ margin-top:40px;
 
 .page-navigation-container ul {
   display: block;
-  background-color: #302579;
+  background-color: #2d2d77;
 }
 .page-navigation-container a{
   color:#fff;
