@@ -202,9 +202,9 @@ position: relative;
 a.btn.btn-info {
   display: block;
   width: 240px;
-  height: 85px;
+  height: 75px;
   background: #28267a;
-  padding: 16px;
+  padding: 13px;
   text-align: center;
   border-radius: 40px;
   color: white;
@@ -275,6 +275,8 @@ a.btn.btn-info {
 max-width:780px;
 margin:0 auto;
 }
+
+
 
 /***********************
    Social Media Widgets
