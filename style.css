@@ -70,6 +70,13 @@ h1.site-title{
  margin:0;
 }
 
+<<<<<<< HEAD
+.custom-header::after {
+
+}
+
+=======
+>>>>>>> c49d56363800f9a7ed3b8d528955e7124c4f5415
 /***********************
  Widgets After Big Hero
 ***********************/
