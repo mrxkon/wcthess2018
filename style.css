@@ -137,7 +137,7 @@ text-align: center;
 }
 
 .author.vcard a {
-  color: #c2b59b;
+ color: rgba(194, 181, 155, 1);
 }
 
 /***********************
@@ -151,7 +151,7 @@ text-align: center;
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #c2b59b;
+  background-color: rgba(194, 181, 155, 1);
   transform-origin: top right;
   transform: skewY(-3deg);
   z-index: 400;
@@ -193,7 +193,7 @@ text-align: center;
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #c2b59b;
+  background-color: rgba(194, 181, 155, 1);
   transform-origin: top left;
   transform: skewY(-3deg);
   z-index: 400;
@@ -792,6 +792,7 @@ body:not(.home) .custom-header:after {
   background: #c2b59b;
   margin: 120px 0 0;
   padding: 120px 20px;
+z-index: 600;
 position: relative;
 }
   #footer-widget-1 .widget-title {
