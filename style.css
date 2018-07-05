@@ -30,9 +30,14 @@
   max-width: 240px;
   max-height: 343px;
 }
+
+
  .site-branding{
   text-align:center;
   text-shadow:0px 2px 6px #202020;
+  z-index: 800;
+position: relative;
+
 }
 p.site-title a,
 h1.site-title a,
@@ -70,13 +75,16 @@ h1.site-title{
  margin:0;
 }
 
-<<<<<<< HEAD
-.custom-header::after {
-
+.custom-header::after{
+  content:"";
+  display: block;
+  height: 960px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(40, 38, 122, .5);
 }
-
-=======
->>>>>>> c49d56363800f9a7ed3b8d528955e7124c4f5415
 /***********************
  Widgets After Big Hero
 ***********************/
@@ -709,12 +717,15 @@ a.cta-button {
 height:960px;
 position: relative;
 }
+
   .custom-header .wp-custom-header,
   .custom-header .custom-logo-link {
     display: block;
     margin: 0 auto;
     padding: 100px 0px 0px 0px;
    text-align:center;
+   z-index: 800;
+position: relative;
   }
 
 /* Try a smaller logo on interior pages */
