@@ -145,6 +145,33 @@ text-align: center;
      Buy Tickets Widgets
 ***********************/
 
+#footer-widget-1 {
+  background: #c2b59b;
+  margin: 120px 0 0;
+  padding: 120px 20px;
+z-index: 600;
+position: relative;
+}
+  #footer-widget-1 .widget-title {
+    margin-top: 0;
+    color: white;
+    font-size: 60px;
+    font-size: 6rem;
+    line-height: 1.2;
+    text-align: left; 
+  position: relative;
+  }
+  #footer-widget-1 .widget {
+    margin: 0 auto;
+    max-width: 780px;
+    color: #28267a; 
+  position:relative;
+  z-index: 600;
+  font-size:38px;
+  font-size:3.8rem;
+  font-weight:800;
+  }
+
 #footer-widget-1::after {
   position: absolute;
   content: "";
@@ -831,32 +858,7 @@ body:not(.home) .custom-header:after {
     #primary-sidebar .wcb_widget_sponsors .sponsor-logo {
       padding: 0; }
 
-#footer-widget-1 {
-  background: #c2b59b;
-  margin: 120px 0 0;
-  padding: 120px 20px;
-z-index: 600;
-position: relative;
-}
-  #footer-widget-1 .widget-title {
-    margin-top: 0;
-    color: white;
-    font-size: 60px;
-    font-size: 6rem;
-    line-height: 1.2;
-    text-align: left; 
-  position: relative;
-  }
-  #footer-widget-1 .widget {
-    margin: 0 auto;
-    max-width: 780px;
-    color: #28267a; 
-  position:relative;
-  z-index: 600;
-  font-size:38px;
-  font-size:3.8rem;
-  font-weight:800;
-  }
+
   #footer-widget-1 form {
     display: grid;
     grid-template-columns: 1fr 200px; }
