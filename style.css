@@ -805,7 +805,11 @@ position: relative;
   #footer-widget-1 .widget {
     margin: 0 auto;
     max-width: 780px;
-    color: #28267a; }
+    color: #28267a; 
+  position:relative;
+  z-index: 600;
+  
+  }
   #footer-widget-1 form {
     display: grid;
     grid-template-columns: 1fr 200px; }
