@@ -30,6 +30,9 @@ p.site-description{
 
 p.site-description {
   font-weight: 300;
+  font-size:31px;
+  font-size:3.1rem;
+  letter-spacing: 1px;
 }
 
 .site-title a:hover {
@@ -52,6 +55,10 @@ h1.site-title a{
 p.site-title a:hover,
 h1.site-title a:hover{
   color:#fff;
+}
+
+h1.site-title{
+  margin-bottom:0;
 }
 
 /***********************
