@@ -292,8 +292,8 @@ margin:0 auto;
   }
 
   #subscribe-email input[type="email"]:focus{
-    border:2px solid #1d1c65!important;
     border-radius: 25px 0px 0px 25px!important;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
   }
 
  
