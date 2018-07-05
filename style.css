@@ -73,15 +73,7 @@ h1.site-title{
 }
 
 .custom-header::after {
-  content: "";
-  display: block;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(40, 38, 122, .2);
-  z-index: 300;
+
 }
 
 /***********************
