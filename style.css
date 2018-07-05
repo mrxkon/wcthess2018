@@ -33,8 +33,6 @@
  .site-branding{
   text-align:center;
   text-shadow:0px 2px 6px #202020;
-  z-index: 800;
-position: relative;
 }
 p.site-title a,
 h1.site-title a,
@@ -70,18 +68,6 @@ h1.site-title a:hover{
 p.site-title,
 h1.site-title{
  margin:0;
-}
-
-.custom-header::after {
-  content: "";
-  display: block;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(40, 38, 122, .2);
-  z-index: 300;
 }
 
 /***********************
@@ -620,8 +606,8 @@ a.cta-button {
   .page-navigation-container a {
     padding: 30px 15px;
     color: #000;
-    font-size: 18px;
-    font-size: 1.8rem;
+    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-transform: inherit;
     letter-spacing: 0px;
@@ -721,8 +707,6 @@ height:960px;
     margin: 0 auto;
     padding: 100px 0px 0px 0px;
    text-align:center;
-   position: relative;
-z-index: 800;
   }
 
 /* Try a smaller logo on interior pages */
