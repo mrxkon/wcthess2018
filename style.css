@@ -144,7 +144,7 @@ text-align: center;
 }
 
 /***********************
-     Buy Tickets widgets
+     Buy Tickets Widgets
 ***********************/
 
 #footer-widget-1::after {
@@ -160,8 +160,12 @@ text-align: center;
   z-index: 400;
 }
 /***********************
-     Sponsors widgets 
+     Sponsors Widgets 
 ***********************/
+#wcb_sponsors-2 h2.widget-title{
+  text-align:center;
+}
+
 #footer-widgets,
 #footer-widget-2{
   background-color:rgba(247, 247, 247, 1)
@@ -181,7 +185,7 @@ text-align: center;
 }
 
 /***********************
-   Subscribe widgets
+   Subscribe Widgets
 ***********************/
 #footer-widget-3{
   background-color: rgba(194, 181, 155, 1);
@@ -215,7 +219,7 @@ z-index: 500;
 }
 
 /***********************
-   Subscribe widgets
+   Social Media Widgets
 ***********************/
 #footer-widget-4 {
   padding: 85px 0 85px;
