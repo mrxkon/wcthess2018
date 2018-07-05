@@ -33,8 +33,6 @@
  .site-branding{
   text-align:center;
   text-shadow:0px 2px 6px #202020;
-  z-index: 800;
-position: relative;
 }
 p.site-title a,
 h1.site-title a,
@@ -72,10 +70,13 @@ h1.site-title{
  margin:0;
 }
 
+<<<<<<< HEAD
 .custom-header::after {
 
 }
 
+=======
+>>>>>>> c49d56363800f9a7ed3b8d528955e7124c4f5415
 /***********************
  Widgets After Big Hero
 ***********************/
@@ -713,8 +714,6 @@ height:960px;
     margin: 0 auto;
     padding: 100px 0px 0px 0px;
    text-align:center;
-   position: relative;
-z-index: 800;
   }
 
 /* Try a smaller logo on interior pages */
