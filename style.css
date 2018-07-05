@@ -141,6 +141,12 @@ text-align: center;
   padding:120px 20px;
 }
 
+#footer-widget-2{
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 /***********************
 <---- END HERE ------->
 ***********************/
