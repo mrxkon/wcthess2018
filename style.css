@@ -133,6 +133,14 @@ text-align: center;
 }
 
 /***********************
+     Subscrtibe
+***********************/
+#footer-widget-3{
+  background-color: rgba(194, 181, 155, 1);
+  padding:120px 20px;
+}
+
+/***********************
 <---- END HERE ------->
 ***********************/
 
