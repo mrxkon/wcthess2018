@@ -136,8 +136,12 @@ text-align: center;
 /***********************
      Sponsors
 ***********************/
-.wcb_widget_sponsors.sponsor-logo{
+.wcb_widget_sponsors .sponsor-logo{
   width:33.33%;
+}
+
+.sponsor-level-title{
+  text-align:center;
 }
 
 /***********************
