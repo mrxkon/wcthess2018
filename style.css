@@ -604,10 +604,10 @@ a.cta-button {
     height: 65px;
     position: relative; }
   .page-navigation-container a {
-    padding: 30px 15px;
+    padding: 28px 15px;
     color: #000;
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
     text-transform: inherit;
     letter-spacing: 0px;
@@ -617,7 +617,7 @@ a.cta-button {
     font-weight: 400; }
   .page-navigation-container li:hover,
   .page-navigation-container li.focus {
-    background: #2d2d77; }
+    color: #2d2d77; }
     .page-navigation-container li:hover a,
     .page-navigation-container li.focus a {
       color: #fff;
@@ -1298,8 +1298,8 @@ margin-top:40px;
   left: -999em;
   z-index: 99999;
   border-radius: 0px 0px 5px 5px;
-  background-color: #2d2d77;
-  color:#fff;
+  color: #2d2d77;
+
 }
 .page-navigation-container ul ul ul {
   left: -999em;
@@ -1331,7 +1331,7 @@ margin-top:40px;
 
 .page-navigation-container ul {
   display: block;
-  background-color: #2d2d77;
+  color: #2d2d77;
 }
 .page-navigation-container a{
   color:#fff;
