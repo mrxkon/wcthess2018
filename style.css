@@ -645,7 +645,9 @@ a.cta-button {
 .page-navigation-container {
   position: relative;
   z-index: 1;
-  background: #fff; }
+  background: #fff;
+  line-height:1;
+}
   .page-navigation-container .menu-primary-nav-container {
     display: inline-block;
     /*height: 65px; */
