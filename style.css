@@ -1394,7 +1394,7 @@ margin-top:40px;
   height: auto;
 }
 .toggled-on .page-navigation-container .menu-primary-nav-container {
-display:inline-block;
+display:block;
 }
 .toggled-on .page-navigation-container ul {
   display: inline-block;
