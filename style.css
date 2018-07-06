@@ -1378,7 +1378,7 @@ margin-top:40px;
 }
 
 /* Small menu. */
-@media screen and (max-width: 8880px) {
+@media screen and (max-width: 880px) {
 
  .js .menu-toggle,  .js .dropdown-toggle {
   display: block;
@@ -1412,14 +1412,8 @@ height: auto;
   display: none;
 }
 
-
 }
-@media screen and (min-width: 37.5em) {
 
-  .page-navigation-container ul {
-    display: block;
-  }
-}
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
