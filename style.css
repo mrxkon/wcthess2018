@@ -16,7 +16,17 @@
 #header-widget-1 h2.widget-title{
   display: none;
 }
+@media screen and (max-width: 1024px){
 
+  .entry-content img.size-full
+  {
+    max-width:100%;
+    height:auto;
+  display: block;
+  margin:0!important;
+  }
+
+}
 /**************************
       Navigation Menu
 ***************************/
@@ -30,9 +40,14 @@
   max-width: 240px;
   max-height: 343px;
 }
+
+
  .site-branding{
   text-align:center;
   text-shadow:0px 2px 6px #202020;
+  z-index: 800;
+position: relative;
+
 }
 p.site-title a,
 h1.site-title a,
@@ -70,13 +85,6 @@ h1.site-title{
  margin:0;
 }
 
-<<<<<<< HEAD
-.custom-header::after {
-
-}
-
-=======
->>>>>>> c49d56363800f9a7ed3b8d528955e7124c4f5415
 /***********************
  Widgets After Big Hero
 ***********************/
@@ -148,6 +156,51 @@ text-align: center;
  color: rgba(194, 181, 155, 1);
 }
 
+blockquote{
+  font-size: 2.4rem;
+  margin: 50px auto;
+  font-style: italic;
+  color: #555555;
+  padding: 19px 30px 19px 75px;
+  line-height: 1.6;
+  position: relative;
+  font-weight: 300;
+}
+blockquote::before{
+  font-family: arial;
+  content: "\201C";
+  color: rgba(194, 181, 155, 1);
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  font-family: arial;
+  content: "\201D";
+  color: rgba(194, 181, 155, 1);
+  font-size:4em;
+  position: absolute;
+  right: 10px;
+  bottom:-50px;
+}
+
+.entry-content h1,
+h1.entry-title{
+  font-size:44px;
+  font-size:4.4rem;
+}
+.entry-content h2,
+h2.entry-title{
+font-size:36px;
+font-size:3.6rem;
+}
+
+.entry-content h3 {
+  font-size: 28px;
+  font-size: 2.8rem;
+  line-height: 1.2; }
 /***********************
      Buy Tickets Widgets
 ***********************/
@@ -174,7 +227,7 @@ position: relative;
   #subscribe-text,
   #footer-widget-1 .widget {
     margin: 0 auto;
-    max-width: 780px;
+    max-width: 800px;
     color: #28267a;
   position:relative;
   z-index: 600;
@@ -282,7 +335,7 @@ a.btn.btn-info {
 #blog_subscription-2{
   position:relative;
   z-index: 600;
-max-width:780px;
+max-width:800px;
 margin:0 auto;
 }
 
@@ -398,26 +451,13 @@ a, a:visited {
     color: #28267a;
     text-decoration: underline; }
 
-.entry-title {
-  font-size: 38px;
-  font-size: 3.8rem; }
+
 
 .entry-content h1, .entry-content h2 {
   margin: 30px 0 15px;
   line-height: 1.32143; }
 
-.entry-content h1 {
-  font-size: 56px;
-  font-size: 5.6rem; }
 
-.entry-content h2 {
-  font-size: 42px;
-  font-size: 4.2rem; }
-
-.entry-content h3 {
-  font-size: 28px;
-  font-size: 2.8rem;
-  line-height: 1.2; }
 
 input[type="text"],
 input[type="email"],
@@ -708,20 +748,23 @@ a.cta-button {
       color: #1d215f; } }
 
 .custom-header {
-  background-image: url("https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_2018_2.jpg");
+  background-image: url("https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_big-hero.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 height:960px;
-position: relative;
+
 }
+
   .custom-header .wp-custom-header,
   .custom-header .custom-logo-link {
     display: block;
     margin: 0 auto;
     padding: 100px 0px 0px 0px;
    text-align:center;
+   z-index: 800;
+position: relative;
   }
 
 /* Try a smaller logo on interior pages */
@@ -850,7 +893,7 @@ body:not(.home) .custom-header:after {
               transform: rotate(4deg); }
   #primary-sidebar .custom-html-widget {
     margin: 0 auto;
-    max-width: 780px;
+    max-width: 800px;
     padding: 60px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -950,7 +993,7 @@ body:not(.home) .custom-header:after {
 
 body:not(.home) .site-main {
   margin: 0 auto;
-  max-width: 780px;
+  max-width: 800px;
 }
 
 .hentry + .hentry {
@@ -1007,13 +1050,13 @@ body:not(.home) .site-main {
 
 .entry-header,
 .entry-footer {
-  max-width:780px;
+  max-width:800px;
   margin:0 auto 30px auto;
 
 }
 
 .entry-content {
-  max-width: 780px;
+  max-width: 800px;
   font-size: 20px;
   font-size: 2rem;
   line-height: 1.55;
@@ -1033,9 +1076,7 @@ body:not(.home) .site-main {
     text-decoration: underline;
     color: #28267a;
     }
-    body.home .entry-content a:hover, body.home .entry-content a:active, body.home .entry-content a:focus {
-      -webkit-box-shadow: 0 2px 7px 2px rgba(79, 88, 0, 0.2), 0 1px 1px 0 rgba(79, 88, 0, 0.1);
-              box-shadow: 0 2px 7px 2px rgba(79, 88, 0, 0.2), 0 1px 1px 0 rgba(79, 88, 0, 0.1); }
+
     body.home .entry-content a:focus {
       outline: 2px solid #1d215f; }
     body.home .entry-content a:hover, body.home .entry-content a:active, body.home .entry-content a:focus {
