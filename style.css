@@ -12,27 +12,54 @@
 /**************************
      General
 ***************************/
+
 .updated,
+#content-widget-1 h2,
+.textwidget.custom-html-widget a h2,
 #header-widget-1 h2.widget-title{
   display: none;
 }
+/**************************
+     @media
+***************************/
 @media screen and (max-width: 820px){
   .entry-content p{
       margin-left:30px;
       margin-right:30px;
-      
     }
+
+    .textwidget.custom-html-widget img{
+      display: none!important;
+    }
+    .textwidget.custom-html-widget a h2{
+    display: block!important;
   }
+  #header-widget-1 {
+		bottom: 20px!important;
+		height: 80px!important;
+	}
+}
   
-  @media screen and (max-width: 1200px) {
-    
-    .entry-content img.size-full {
-      max-width: 100%!important;
-      height: auto;
-      display: block;
-      margin: 0 !important;
+@media screen and (max-width: 1200px) {
+	.entry-content img.size-full {
+		max-width: 100% !important;
+		height: auto;
+		display: block;
+		margin: 0!important;
+	}
+}
+
+/**************************
+     Fluid Typography
+***************************/
+  @media (min-width: 0px) {
+    .textwidget.custom-html-widget a h2 {
+      font-size: calc(1rem + ((1vw - 0px) * 1));
+      text-transform: uppercase;
+      font-weight: 700;
     }
   }
+    
 /**************************
       Navigation Menu
 ***************************/
@@ -94,10 +121,6 @@ h1.site-title{
 /***********************
  Widgets After Big Hero
 ***********************/
-.updated
-#content-widget-1 h2 {
- display: none;
-}
 
 #custom_html-13, #custom_html-14, #custom_html-15, #custom_html-16{
 width: 290px;
@@ -132,7 +155,7 @@ text-align: center;
   background-color: #fff;
   box-shadow: 0 0 25px .75px rgba(0,0,0,0.16);
   border-radius: 20px;
-  height: 200px;
+  height:auto;
   position: relative;
   bottom: 95px;
   padding: 0 20px;
