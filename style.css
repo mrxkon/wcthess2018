@@ -1341,7 +1341,7 @@ margin-top:40px;
 }
 
 .page-navigation-container ul {
-  display: none;
+  display: block;
   list-style: none;
   margin: 0;
   padding-left: 0;
