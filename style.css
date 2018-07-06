@@ -648,10 +648,10 @@ a.cta-button {
   background: #fff; }
   .page-navigation-container .menu-primary-nav-container {
     display: inline-block;
-    height: 65px;
+    /*height: 65px; */
     position: relative; }
   .page-navigation-container a {
-    padding: 28px 15px;
+    padding: 26px 15px;
     color: #000;
     font-size: 18px;
     font-size: 1.8rem;
