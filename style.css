@@ -1379,10 +1379,10 @@ margin-top:40px;
 
 /* Small menu. */
 @media screen and (max-width: 860px) {
-.site  .js .menu-toggle, .site .js .dropdown-toggle {
-  display: block;
-}
 
+.site  .js .menu-toggle, .site .js .dropdown-toggle {
+  display: block!important;
+}
 .page-navigation-container ul {
   display: block;
   color: #2d2d77;
