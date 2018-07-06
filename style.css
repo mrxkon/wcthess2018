@@ -1384,7 +1384,7 @@ margin-top:40px;
   display: block;
 }
 .page-navigation-container ul {
-  display: block;
+  display: inline-block;
   color: #2d2d77;
 }
 .page-navigation-container a{
