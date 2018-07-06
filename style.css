@@ -75,7 +75,6 @@ h1.site-title{
  margin:0;
 }
 
-}
 /***********************
  Widgets After Big Hero
 ***********************/
@@ -176,6 +175,22 @@ blockquote::after{
   right: 10px;
   bottom:-50px;
 }
+
+.entry-content h1,
+h1.entry-title{
+  font-size:44px;
+  font-size:4.4rem;
+}
+.entry-content h2,
+h2.entry-title{
+font-size:36px;
+font-size:3.6rem;
+}
+
+.entry-content h3 {
+  font-size: 28px;
+  font-size: 2.8rem;
+  line-height: 1.2; }
 /***********************
      Buy Tickets Widgets
 ***********************/
@@ -426,26 +441,13 @@ a, a:visited {
     color: #28267a;
     text-decoration: underline; }
 
-.entry-title {
-  font-size: 38px;
-  font-size: 3.8rem; }
+
 
 .entry-content h1, .entry-content h2 {
   margin: 30px 0 15px;
   line-height: 1.32143; }
 
-.entry-content h1 {
-  font-size: 56px;
-  font-size: 5.6rem; }
 
-.entry-content h2 {
-  font-size: 42px;
-  font-size: 4.2rem; }
-
-.entry-content h3 {
-  font-size: 28px;
-  font-size: 2.8rem;
-  line-height: 1.2; }
 
 input[type="text"],
 input[type="email"],
