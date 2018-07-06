@@ -1389,8 +1389,14 @@ margin-top:40px;
 .page-navigation-container ul {
   display: none;
 }
-
-.toggled-on page-navigation-container ul {
+.page-navigation-container .menu-primary-nav-container {
+  display: none;
+  height: auto;
+}
+.toggled-on .page-navigation-container .menu-primary-nav-container {
+display:inline-block;
+}
+.toggled-on .page-navigation-container ul {
   display: inline-block;
   color: #2d2d77;
 }
