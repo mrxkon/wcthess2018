@@ -1378,12 +1378,19 @@ margin-top:40px;
 }
 
 /* Small menu. */
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 8880px) {
 
  .js .menu-toggle,  .js .dropdown-toggle {
   display: block;
 }
+.page-navigation-container li {
+  float: none;
+}
 .page-navigation-container ul {
+  display: none;
+}
+
+.toggled-on page-navigation-container ul {
   display: inline-block;
   color: #2d2d77;
 }
