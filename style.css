@@ -276,8 +276,7 @@ position: relative;
     color: #28267a;
   position:relative;
   z-index: 600;
-  font-size:38px;
-  font-size:3.8rem;
+
   font-weight:800;
   }
 
@@ -340,8 +339,12 @@ a.btn.btn-info {
   background-color:rgba(247, 247, 247, 1)
 }
 
-.wcb_widget_sponsors .sponsor-logo{
-  width:33.33%;
+
+.wcb_widget_sponsors .sponsor-logo img{
+  height: auto!important;
+max-height: 100px!important;
+width: auto!important;
+padding: 15px!important;
 }
 
 .sponsor-level-title{
