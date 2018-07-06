@@ -37,6 +37,11 @@
   #header-widget-1 {
 		bottom: 20px!important;
 		height: 80px!important;
+  }
+  
+  #custom_html-17{
+		float: left;
+		display: block;
 	}
 }
   
@@ -230,6 +235,7 @@ font-size:3.6rem;
   font-size: 28px;
   font-size: 2.8rem;
   line-height: 1.2; }
+
 /***********************
      Buy Tickets Widgets
 ***********************/
@@ -237,11 +243,20 @@ font-size:3.6rem;
 #footer-widget-1 {
   background: #c2b59b;
   margin: 120px 0 0;
-  padding: 120px 20px;
+  padding: 190px 20px;
 z-index: 600;
 position: relative;
 }
-
+#footer-widget-1 .textwidget.custom-html-widget{
+  max-width:800px;
+  float:left;
+  margin-left:30px;
+}
+#custom_html-17{
+  max-width: 420px;
+  top:20px;
+  }
+ 
 #blog_subscription-2 .widget-title,
   #footer-widget-1 .widget-title {
     margin-top: 0;
@@ -251,12 +266,13 @@ position: relative;
     line-height: 1.2;
     text-align: left;
   position: relative;
+  margin-left: 30px;
   }
 
   #subscribe-text,
   #footer-widget-1 .widget {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1200px;
     color: #28267a;
   position:relative;
   z-index: 600;
