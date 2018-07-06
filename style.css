@@ -16,7 +16,16 @@
 #header-widget-1 h2.widget-title{
   display: none;
 }
+@media screen and (max-width: 800px){
 
+  .entry-content img.size-full
+  {
+    max-width: 100%;
+ height:auto;
+  display: block;
+  }
+
+}
 /**************************
       Navigation Menu
 ***************************/
