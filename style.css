@@ -1368,6 +1368,10 @@ margin-top:40px;
 .page-navigation-container ul li.focus > ul {
   left: auto;
 }
+.page-navigation-container li:hover ul li a , .page-navigation-container li.focus ul li a {
+  color:#000;
+}
+
 .page-navigation-container li {
   float: left;
   position: relative;
