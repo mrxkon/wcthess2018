@@ -16,7 +16,7 @@
 #header-widget-1 h2.widget-title{
   display: none;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
 
   .entry-content img.size-full
   {
