@@ -20,8 +20,9 @@
 
   .entry-content img.size-full
   {
-    
-  display: none!important;
+    max-width:100%;
+    height:auto;
+  display: block;
   }
 
 }
