@@ -1380,8 +1380,8 @@ margin-top:40px;
 /* Small menu. */
 @media screen and (max-width: 860px) {
 
-.site  .js .menu-toggle, .site .js .dropdown-toggle {
-  display: block!important;
+ .js .menu-toggle,  .js .dropdown-toggle {
+  display: block;
 }
 .page-navigation-container ul {
   display: block;
@@ -1408,10 +1408,6 @@ height: auto;
 
 }
 @media screen and (min-width: 37.5em) {
-  .js .menu-toggle,
-  .js .dropdown-toggle {
-    display: none;
-  }
 
   .page-navigation-container ul {
     display: block;
