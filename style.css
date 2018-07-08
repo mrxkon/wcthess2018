@@ -144,6 +144,29 @@
       font-size:3.8rem;
     }
   }
+
+  @media (min-width: 0px) {
+    .entry-content h2 {
+      font-size: calc(1.3125rem + ((1vw - 0px) * 1.875));
+    }
+  }
+  @media (min-width: 800px) {
+    .entry-content h2 {
+      font-size: 36px;
+    }
+  }
+  
+  @media (min-width: 0px) {
+    h1.entry-title {
+      font-size: calc(1.3125rem + ((1vw - 0px) * 1.875));
+    }
+  }
+  @media (min-width: 800px) {
+    h1.entry-title {
+      font-size: 36px;
+    }
+  }
+  
   
 /**************************
       Navigation Menu
@@ -301,10 +324,11 @@ blockquote::after{
 }
 
 .entry-content h1,
-h1.entry-title{
+{
   font-size:44px;
   font-size:4.4rem;
 }
+
 .entry-content h2,
 h2.entry-title{
 font-size:36px;
