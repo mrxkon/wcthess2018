@@ -291,7 +291,7 @@ font-size:3.6rem;
 #footer-widget-1 {
   background: #c2b59b;
   margin: 120px 0 0;
-  padding: 190px 20px;
+  padding: 100px 0 210px 0;
 z-index: 600;
 position: relative;
 }
@@ -299,12 +299,9 @@ position: relative;
   max-width:800px;
   float:left;
   margin-left:30px;
-  font-size:38px;
-  font-size:3.8rem;
 }
 #custom_html-17{
-  max-width: 420px;
-  top:20px;
+  top:50px;
   }
 
 #blog_subscription-2 .widget-title,
