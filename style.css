@@ -1512,6 +1512,7 @@ margin-top:40px;
 }
 .page-navigation-container ul ul a{
   border-top: 0px solid grey;
+  width:100%;
 }
 
 
