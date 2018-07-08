@@ -19,6 +19,31 @@
 #header-widget-1 h2.widget-title{
   display: none;
 }
+#page.site{
+	position:relative;
+	
+}
+#page.site::before{
+	position:absolute;
+	display:block;
+		content:"";
+	background-image:url("https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_left.png");
+	top:19.61%;
+	height:3869px;
+	width:588px;
+	
+}
+#page.site::after{
+	position:absolute;
+	display:block;
+		content:"";
+	background-image:url("https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_right.png");
+	top:19.61%;
+	height:3998px;
+	width:530px;
+	right:0
+	
+}
 /**************************
      @media
 ***************************/
