@@ -1496,6 +1496,22 @@ margin-top:40px;
   background-color: #fff;
   color: #000;
 }
+
+.page-navigation-container ul.sub-menu {
+  display: block;
+}
+
+.page-navigation-container ul.sub-men ul {
+  position: relative;
+  top: -20px;
+  left: 0;
+  z-index: 0;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+
 .toggled-on #secondary-menu{
   display:block;
 }
