@@ -360,7 +360,7 @@ padding: 15px!important;
 .sponsor-level-title:after, .sponsor-level-title:before{
   content: '';
   display: inline-block;
-  width: 20%;
+  width: 36%;
   border-bottom: 2px solid #ccc;
   top: -5px;
   position: relative;
@@ -381,8 +381,9 @@ padding: 15px!important;
 }
 #footer-widget-2 .wcb_widget_sponsors .sponsor-logo {
      padding-bottom: 10px;
-     width: 32%;
+     width: 33.33333333333333%;
      display: inline-block;
+     float:left;
 }
 
 #footer-widget-2 .wcb_widget_sponsors .sponsor-logo img {
