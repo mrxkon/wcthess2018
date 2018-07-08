@@ -1501,7 +1501,7 @@ margin-top:40px;
   display: block;
 }
 
-.page-navigation-container ul ul.sub-menu {
+.page-navigation-container ul ul {
   position: relative;
   top: -20px;
   left: 0;
@@ -1509,6 +1509,9 @@ margin-top:40px;
   border-radius: 0 0 5px 5px;
   text-align: center;
   display: inline-block;
+}
+.page-navigation-container ul ul a{
+  border-top: 0px solid grey;
 }
 
 
