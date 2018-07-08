@@ -356,25 +356,23 @@ padding: 15px!important;
   margin-top:0px;
   margin-bottom: 10px;
 }
-.sponsor-level-title:after{
+
+.sponsor-level-title:after, .sponsor-level-title:before{
   content: '';
   display: inline-block;
   width: 20%;
-  margin-right: -20%;
   border-bottom: 2px solid #ccc;
   top: -5px;
   position: relative;
+
+}
+.sponsor-level-title:after{
+  margin-right: -20%;
   left: 20px;
 }
 .sponsor-level-title:before{
-  content: '';
-  display: inline-block;
-  width: 20%;
-  margin-right: -20%;
-  border-bottom: 2px solid #ccc;
-  top: -5px;
-  position: relative;
-  left: 20px;
+  margin-left: -20%;
+  right: 20px;
 }
 
 #media_image-2 img{
