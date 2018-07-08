@@ -1492,7 +1492,10 @@ margin-top:40px;
 
 /* Small menu. */
 @media screen and (max-width: 880px) {
-
+#header-navigation button{
+  background-color: #fff;
+  color:rgb(40, 38, 122);
+}
  .js .menu-toggle,  .js .dropdown-toggle {
   display: block;
 }
