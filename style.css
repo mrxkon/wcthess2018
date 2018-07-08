@@ -367,7 +367,7 @@ padding: 15px!important;
   display: inline-block;
   float: left;
 }
-.sponsor-level .gold-sponsors{
+#wcb_sponsors-2.widget.wcb_widget_sponsors{
   margin: 0 auto;
     width: 720px;
 }
