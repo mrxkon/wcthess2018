@@ -19,6 +19,12 @@
 #header-widget-1 h2.widget-title{
   display: none;
 }
+#main{
+	background-color:#fff;
+	max-width:1200px;
+		margin:0 auto;
+	
+}
 #page.site{
 	position:relative;
 	
