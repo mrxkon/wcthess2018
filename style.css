@@ -412,7 +412,6 @@ padding: 15px!important;
 @media screen and (max-width:600px ) {
   #footer-widget-2 .wcb_widget_sponsors .sponsor-logo {
     width:50%;
-    float:none;
   }
 }
 
