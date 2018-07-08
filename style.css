@@ -88,6 +88,30 @@
       font-size:6rem;
     }
   }
+
+  @media (min-width: 0px) {
+    #footer-widget-1 .textwidget.custom-html-widget h2 {
+      font-size: calc(1.3125rem + ((1vw - 0px) * 2.125));
+    }
+  }
+  @media (min-width: 800px) {
+    #footer-widget-1 .textwidget.custom-html-widget h2 {
+      font-size: 38px;
+      font-size:3.8rem;
+    }
+  }
+  
+  @media (min-width: 0px) {
+    #subscribe-text h2 {
+      font-size: calc(1.3125rem + ((1vw - 0px) * 2.125));
+    }
+  }
+  @media (min-width: 800px) {
+    #subscribe-text h2 {
+      font-size: 38px;
+      font-size:3.8rem;
+    }
+  }
   
 /**************************
       Navigation Menu
