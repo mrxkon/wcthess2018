@@ -352,7 +352,9 @@ padding: 15px!important;
   clear: both;
   width: 100%;
   padding: 28px 0px 0px 0px;
+  font-weight:500;
 }
+
 
 #media_image-2 img{
   display: block;
