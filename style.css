@@ -349,6 +349,9 @@ padding: 15px!important;
 
 .sponsor-level-title{
   text-align:center;
+  clear: both;
+  width: 100%;
+  padding: 28px 0px 0px 0px;
 }
 
 #media_image-2 img{
