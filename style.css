@@ -356,7 +356,7 @@ padding: 15px!important;
   clear: both;
   width: 100%;
   padding: 28px 0px 0px 0px;
-  font-weight: 600;
+  font-weight: 700;
   margin-top:0px;
   margin-bottom: 10px;
 }
@@ -364,7 +364,7 @@ padding: 15px!important;
 .sponsor-level-title:after, .sponsor-level-title:before{
   content: '';
   display: inline-block;
-  width: 36%;
+  width:42%;
   border-bottom: 5px solid #c2b59b;
   top: -5px;
   position: relative;
@@ -399,10 +399,10 @@ padding: 15px!important;
 }
 #wcb_sponsors-2.widget.wcb_widget_sponsors{
   margin: 0 auto;
-    width: 720px;
+    width: 1200px;
 }
 
-@media screen and (max-width:740px ) {
+@media screen and (max-width:1200px ) {
 
   #wcb_sponsors-2.widget.wcb_widget_sponsors{
     margin: 0 auto;
