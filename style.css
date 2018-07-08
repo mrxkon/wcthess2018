@@ -1501,7 +1501,7 @@ margin-top:40px;
   display: block;
 }
 
-.page-navigation-container ul.sub-men ul {
+.page-navigation-container ul ul.sub-menu {
   position: relative;
   top: -20px;
   left: 0;
