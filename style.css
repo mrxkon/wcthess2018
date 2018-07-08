@@ -1502,9 +1502,6 @@ margin-top:40px;
  .js .menu-toggle,  .js .dropdown-toggle {
   display: block;
 }
-.page-navigation-container li {
-  float: none;
-}
 .page-navigation-container ul {
   display: none;
 }
