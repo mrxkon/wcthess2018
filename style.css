@@ -359,7 +359,7 @@ padding: 15px!important;
   display: block;
   margin:0 auto;
 }
-.wcb_widget_sponsors .sponsor-logo img {
+#footer-widget-2 .wcb_widget_sponsors .sponsor-logo img {
   max-width: 33%;
   height: auto;
   max-height: 150px;
