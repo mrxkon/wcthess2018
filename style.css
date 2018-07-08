@@ -36,7 +36,8 @@
 	background-image:url("https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_left.png");
 	top:19.61%;
 	height:3869px;
-	width:588px;
+  width:588px;
+  z-index:-1;
 	
 }
 #page.site::after{
@@ -47,8 +48,8 @@
 	top:19.61%;
 	height:3998px;
 	width:530px;
-	right:0
-	
+	right:0;
+  z-index:-1;
 }
 /**************************
      @media
