@@ -23,12 +23,12 @@
 	background-color:#fff;
 	max-width:1200px;
 		margin:0 auto;
-	
+
 }
 #masthead{
 	position: relative
 }
-	
+
 #masthead::before {
 	position: absolute;
 	content: "";
@@ -115,7 +115,7 @@
       font-size:6rem;
     }
   }
-  
+
   @media (min-width: 0px) {
     #blog_subscription-2 h2.widget-title {
       font-size: calc(1.9375rem + ((1vw - 0px) * 3.625));
@@ -139,7 +139,7 @@
       font-size:3.8rem;
     }
   }
-  
+
   @media (min-width: 0px) {
     #subscribe-text h2 {
       font-size: calc(1.3125rem + ((1vw - 0px) * 2.125));
@@ -162,7 +162,7 @@
       font-size: 36px;
     }
   }
-  
+
   @media (min-width: 0px) {
     h1.entry-title {
       font-size: calc(1.3125rem + ((1vw - 0px) * 1.875));
@@ -185,9 +185,9 @@
       font-weight:800;
     }
   }
-  
-  
-  
+
+
+
 /**************************
       Navigation Menu
 ***************************/
@@ -899,14 +899,16 @@ a.cta-button {
     font-weight: 500; }
   .page-navigation-container li:hover,
   .page-navigation-container li.focus {
-    color: #2d2d77; }
+    color: #fff;
+    background-color:#2d2d77;
+  }
     .page-navigation-container li:hover a,
     .page-navigation-container li.focus a {
       color: #2d2d77;
       text-decoration: none; }
   .page-navigation-container ul ul {
     top: 78px;
-    background: #ffffff;}
+    background: #2d2d77;}
     .page-navigation-container ul ul a {
       padding: 10px 15px;
       color: #000;
