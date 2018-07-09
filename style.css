@@ -295,7 +295,9 @@ text-align: center;
   max-width: 100vw;
   margin-bottom:20px;
 }
-
+.entry-meta span.posted-on{
+color:#28267a;
+}
 .author.vcard a {
  color: rgba(194, 181, 155, 1);
 }
