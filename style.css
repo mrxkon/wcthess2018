@@ -63,7 +63,7 @@
     }
 
     #masthead::before,
-    #masthead::after
+    #masthead::after,
     .textwidget.custom-html-widget img{
       display: none!important;
     }
