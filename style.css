@@ -62,6 +62,8 @@
       margin-right:30px;
     }
 
+    #masthead::before,
+    #masthead::after
     .textwidget.custom-html-widget img{
       display: none!important;
     }
@@ -76,7 +78,8 @@
   #custom_html-17{
 		float: left;
 		display: block;
-	}
+  }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -378,8 +381,6 @@ position: relative;
     max-width: 1200px;
     color: #28267a;
   position:relative;
-  z-index: 600;
-
   font-weight:800;
   }
 
