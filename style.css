@@ -925,7 +925,6 @@ a.cta-button {
 
 .page-navigation-container {
   position: relative;
-  z-index: 1;
   background: #fff;
   line-height:1;
 }
