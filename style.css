@@ -1629,9 +1629,12 @@ margin-top:40px;
   left: auto;
 }
 .page-navigation-container li:hover ul li a , .page-navigation-container li.focus ul li a {
-  color:#000;
+  color:#fff;
 }
-
+.page-navigation-container li:hover ul li:hover a , .page-navigation-container li.focus ul li:hover a {
+  background-color:#fff;
+  color: #2d2d77;
+}
 .page-navigation-container li {
   float: left;
   position: relative;
