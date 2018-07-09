@@ -295,6 +295,8 @@ text-align: center;
   max-width: 100vw;
   margin-bottom:20px;
 }
+.entry-header .byline,
+.entry-meta span.posted-on a,
 .entry-meta span.posted-on{
 color:#28267a;
 }
