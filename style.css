@@ -25,32 +25,34 @@
 		margin:0 auto;
 	
 }
-#page.site{
-	position:relative;
+#masthead{
+	position: relative
+}
 	
+#masthead::before {
+	position: absolute;
+	content: "";
+	background-image: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_left.png');
+	display: block;
+	height: 3869px;
+	width: 588px;
+	z-index: -1;
+	display: block;
+	top:84.2%;
 }
-#page.site::before{
-	position:absolute;
-	display:block;
-		content:"";
-	background-image:url("https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_left.png");
-	top:19.61%;
-	height:3869px;
-  width:588px;
-  z-index:-1;
-	
+
+#masthead::after {
+	position: absolute;
+	display: block;
+	content: "";
+	background-image: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_right.png');
+		top:84.2%;
+	height: 3998px;
+	width: 530px;
+	right: 0;
+	z-index: -1;
 }
-#page.site::after{
-	position:absolute;
-	display:block;
-		content:"";
-	background-image:url("https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_right.png");
-	top:19.61%;
-	height:3998px;
-	width:530px;
-	right:0;
-  z-index:-1;
-}
+
 /**************************
      @media
 ***************************/
@@ -993,32 +995,6 @@ body:not(.home) .custom-header:after {
 
 .widget {
   margin: 0; }
-
-
-  #content-widget-1 .level-1 {
-    grid-column: 1 / span 2;
-    font-size: 56px;
-    font-size: 5.6rem;
-    line-height: 1.1;
-    font-family: "freight-sans-condensed-pro", sans-serif;
-    font-weight: 900;
-    color: #a00a74; }
-  #content-widget-1 .level-2 {
-    font-size: 42px;
-    font-size: 4.2rem;
-    font-family: "freight-sans-condensed-pro", sans-serif;
-    font-weight: 900; }
-  #content-widget-1 .button {
-    display: inline-block;
-    padding: 30px;
-    font-size: 28px;
-    font-size: 2.8rem;
-    line-height: 1;
-    font-weight: 900;
-    text-align: center;
-    text-decoration: none;
-    color: #1d215f;
-    background: #ff9700; }
     #content-widget-1 .button:hover, #content-widget-1 .button:active, #content-widget-1 .button:focus {
       -webkit-box-shadow: 0 2px 7px 2px rgba(102, 60, 0, 0.2), 0 1px 1px 0 rgba(102, 60, 0, 0.1);
               box-shadow: 0 2px 7px 2px rgba(102, 60, 0, 0.2), 0 1px 1px 0 rgba(102, 60, 0, 0.1); }
