@@ -1648,7 +1648,7 @@ margin-top:40px;
 /* Small menu. */
 @media screen and (max-width: 880px) {
 #header-navigation button{
-  background-color: #fff;
+  background-color: transparent;
   color: #000;
 }
 
