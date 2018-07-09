@@ -925,13 +925,11 @@ a.cta-button {
 
 .page-navigation-container {
   position: relative;
-  z-index: 1;
   background: #fff;
   line-height:1;
 }
   .page-navigation-container .menu-primary-nav-container {
     display: inline-block;
-    height: 64px;
     position: relative; }
   .page-navigation-container a {
     padding: 26px 15px;
@@ -1649,7 +1647,7 @@ margin-top:40px;
 /* Small menu. */
 @media screen and (max-width: 880px) {
 #header-navigation button{
-  background-color: #fff;
+  background-color: transparent;
   color: #000;
 }
 
