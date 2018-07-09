@@ -1510,6 +1510,7 @@ margin-top:40px;
   text-align: center;
   display: inline-block;
   width: 100%;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.0);
 }
 .page-navigation-container ul ul a{
   border-top: 0px solid grey;
