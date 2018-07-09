@@ -294,6 +294,14 @@ text-align: center;
 /***********************
      Single Article
 ***********************/
+
+figure, img {
+  display: block;
+  margin: 0;
+  margin-bottom: 15px;
+  max-width: 100%;
+  height: auto;
+}
 article.post{
   position: relative;
   margin-bottom: 48px;
