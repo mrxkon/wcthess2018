@@ -639,8 +639,6 @@ margin:0 auto;
     box-shadow: inset 0px 0px 5px rgba(40, 38, 122, 0.57);
   }
 
-
-
   #subscribe-submit input {
     position: absolute;
     background: #28267a;
@@ -680,6 +678,17 @@ margin:0 auto;
   }
   .jetpack_widget_social_icons ul.size-large a{
     margin-left:10px;
+  }
+
+  .jetpack_widget_social_icons ul.size-large a{
+    height: 64px!important;
+width: 64px!important;
+  }
+
+  .jetpack_widget_social_icons svg{
+    border: 1px solid #c2b59b!important;
+    padding: 10px!important;
+    background-color: #fff!important;
   }
 /***********************
 <---- END HERE ------->
@@ -953,7 +962,7 @@ a.cta-button {
   .page-navigation-container li:hover,
   .page-navigation-container li.focus {
     color: #fff;
-    background-color:#2d2d77;
+    background-color: rgba(40, 38, 122, 1);
   }
     .page-navigation-container li:hover a,
     .page-navigation-container li.focus a {
