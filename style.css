@@ -290,6 +290,24 @@ text-align: center;
 /***********************
      Single Article
 ***********************/
+article.post{
+  position: relative;
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+}
+article.post::after{
+	position:absolute;
+	display: block;
+	content:"";
+	background:url("https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_article_dots.png");
+	width:184px;
+	height:71px;
+	left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+}
+
   a.more-link {
     display: inline-block;
     margin-top: 15px;
