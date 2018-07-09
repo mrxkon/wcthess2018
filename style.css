@@ -904,14 +904,15 @@ a.cta-button {
   }
     .page-navigation-container li:hover a,
     .page-navigation-container li.focus a {
-      color: #2d2d77;
+      color: #fff;
       text-decoration: none; }
   .page-navigation-container ul ul {
     top: 78px;
     background: #2d2d77;}
     .page-navigation-container ul ul a {
       padding: 10px 15px;
-      color: #000;
+      background-color: #2d2d7;
+      color: #fff;
       width: 200px;
       border-top: 1px solid grey; }
     .page-navigation-container ul ul li:hover a,
