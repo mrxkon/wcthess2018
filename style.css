@@ -19,6 +19,42 @@
 #header-widget-1 h2.widget-title{
   display: none;
 }
+#main{
+	background-color:#fff;
+	max-width:1200px;
+		margin:0 auto;
+	
+}
+#masthead{
+	position: relative
+}
+	
+#masthead::before {
+	position: absolute;
+	content: "";
+	background-image: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_left.png');
+	display: block;
+  height: 3869px;
+  max-height: 100%;
+	width: 588px;
+	z-index: -1;
+	display: block;
+	top:84.2%;
+}
+
+#masthead::after {
+	position: absolute;
+	display: block;
+	content: "";
+	background-image: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_right.png');
+		top:84.2%;
+  height: 3998px;
+  max-height: 100%;
+	width: 530px;
+	right: 0;
+	z-index: -1;
+}
+
 /**************************
      @media
 ***************************/
@@ -28,6 +64,8 @@
       margin-right:30px;
     }
 
+    #masthead::before,
+    #masthead::after,
     .textwidget.custom-html-widget img{
       display: none!important;
     }
@@ -42,7 +80,8 @@
   #custom_html-17{
 		float: left;
 		display: block;
-	}
+  }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -65,6 +104,90 @@
     }
   }
 
+  @media (min-width: 0px) {
+    #footer-widget-1 h2.widget-title {
+      font-size: calc(1.9375rem + ((1vw - 0px) * 3.625));
+    }
+  }
+  @media (min-width: 800px) {
+    #footer-widget-1 h2.widget-title {
+      font-size: 60px;
+      font-size:6rem;
+    }
+  }
+  
+  @media (min-width: 0px) {
+    #blog_subscription-2 h2.widget-title {
+      font-size: calc(1.9375rem + ((1vw - 0px) * 3.625));
+    }
+  }
+  @media (min-width: 800px) {
+    #blog_subscription-2 h2.widget-title {
+      font-size: 60px;
+      font-size:6rem;
+    }
+  }
+
+  @media (min-width: 0px) {
+    #footer-widget-1 .textwidget.custom-html-widget h2 {
+      font-size: calc(1.3125rem + ((1vw - 0px) * 2.125));
+    }
+  }
+  @media (min-width: 800px) {
+    #footer-widget-1 .textwidget.custom-html-widget h2 {
+      font-size: 38px;
+      font-size:3.8rem;
+    }
+  }
+  
+  @media (min-width: 0px) {
+    #subscribe-text h2 {
+      font-size: calc(1.3125rem + ((1vw - 0px) * 2.125));
+    }
+  }
+  @media (min-width: 800px) {
+    #subscribe-text h2 {
+      font-size: 38px;
+      font-size:3.8rem;
+    }
+  }
+
+  @media (min-width: 0px) {
+    .entry-content h2 {
+      font-size: calc(1.3125rem + ((1vw - 0px) * 1.875));
+    }
+  }
+  @media (min-width: 800px) {
+    .entry-content h2 {
+      font-size: 36px;
+    }
+  }
+  
+  @media (min-width: 0px) {
+    h1.entry-title {
+      font-size: calc(1.3125rem + ((1vw - 0px) * 1.875));
+    }
+  }
+  @media (min-width: 800px) {
+    h1.entry-title {
+      font-size: 36px;
+    }
+  }
+
+  @media (min-width: 0px) {
+    #wcb_sponsors-2 h2.widget-title {
+      font-size: calc(1.3125rem + ((1vw - 0px) * 2.125));
+    }
+  }
+  @media (min-width: 800px) {
+    #wcb_sponsors-2 h2.widget-title {
+      font-size: 38px;
+      font-weight:800;
+    }
+  }
+  
+  
+  
 /**************************
       Navigation Menu
 ***************************/
@@ -185,7 +308,11 @@ text-align: center;
   max-width: 100vw;
   margin-bottom:20px;
 }
-
+.entry-header .byline,
+.entry-meta span.posted-on a,
+.entry-meta span.posted-on{
+color:#28267a;
+}
 .author.vcard a {
  color: rgba(194, 181, 155, 1);
 }
@@ -221,10 +348,11 @@ blockquote::after{
 }
 
 .entry-content h1,
-h1.entry-title{
+{
   font-size:44px;
   font-size:4.4rem;
 }
+
 .entry-content h2,
 h2.entry-title{
 font-size:36px;
@@ -243,7 +371,7 @@ font-size:3.6rem;
 #footer-widget-1 {
   background: #c2b59b;
   margin: 120px 0 0;
-  padding: 190px 20px;
+  padding: 100px 0 210px 0;
 z-index: 600;
 position: relative;
 }
@@ -253,16 +381,13 @@ position: relative;
   margin-left:30px;
 }
 #custom_html-17{
-  max-width: 420px;
-  top:20px;
+  top:50px;
   }
 
 #blog_subscription-2 .widget-title,
   #footer-widget-1 .widget-title {
     margin-top: 0;
     color: white;
-    font-size: 60px;
-    font-size: 6rem;
     line-height: 1.2;
     text-align: left;
   position: relative;
@@ -275,9 +400,8 @@ position: relative;
     max-width: 1200px;
     color: #28267a;
   position:relative;
-  z-index: 600;
-
   font-weight:800;
+  z-index:800;
   }
 
 #footer-widget-1::after {
@@ -356,16 +480,18 @@ padding: 15px!important;
   clear: both;
   width: 100%;
   padding: 28px 0px 0px 0px;
-  font-weight: 600;
+  font-weight: 700;
   margin-top:0px;
   margin-bottom: 10px;
+  font-size:30px;
+  font-size:3rem;
 }
 
 .sponsor-level-title:after, .sponsor-level-title:before{
   content: '';
   display: inline-block;
-  width: 36%;
-  border-bottom: 2px solid #ccc;
+  width:42%;
+  border-bottom: 5px solid #c2b59b;
   top: -5px;
   position: relative;
 
@@ -399,10 +525,10 @@ padding: 15px!important;
 }
 #wcb_sponsors-2.widget.wcb_widget_sponsors{
   margin: 0 auto;
-    width: 720px;
+    width: 1200px;
 }
 
-@media screen and (max-width:740px ) {
+@media screen and (max-width:1200px ) {
 
   #wcb_sponsors-2.widget.wcb_widget_sponsors{
     margin: 0 auto;
@@ -890,32 +1016,6 @@ body:not(.home) .custom-header:after {
 
 .widget {
   margin: 0; }
-
-
-  #content-widget-1 .level-1 {
-    grid-column: 1 / span 2;
-    font-size: 56px;
-    font-size: 5.6rem;
-    line-height: 1.1;
-    font-family: "freight-sans-condensed-pro", sans-serif;
-    font-weight: 900;
-    color: #a00a74; }
-  #content-widget-1 .level-2 {
-    font-size: 42px;
-    font-size: 4.2rem;
-    font-family: "freight-sans-condensed-pro", sans-serif;
-    font-weight: 900; }
-  #content-widget-1 .button {
-    display: inline-block;
-    padding: 30px;
-    font-size: 28px;
-    font-size: 2.8rem;
-    line-height: 1;
-    font-weight: 900;
-    text-align: center;
-    text-decoration: none;
-    color: #1d215f;
-    background: #ff9700; }
     #content-widget-1 .button:hover, #content-widget-1 .button:active, #content-widget-1 .button:focus {
       -webkit-box-shadow: 0 2px 7px 2px rgba(102, 60, 0, 0.2), 0 1px 1px 0 rgba(102, 60, 0, 0.1);
               box-shadow: 0 2px 7px 2px rgba(102, 60, 0, 0.2), 0 1px 1px 0 rgba(102, 60, 0, 0.1); }
