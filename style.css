@@ -382,6 +382,7 @@ position: relative;
     color: #28267a;
   position:relative;
   font-weight:800;
+  z-index:800;
   }
 
 #footer-widget-1::after {
