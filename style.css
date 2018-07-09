@@ -506,7 +506,7 @@ a.btn.btn-info:hover{
   height: auto!important;
 max-height: 100px!important;
 width: auto!important;
-padding: 15px!important;
+padding: 25px 25px 5px 55px !important;
 }
 
 #wcb_sponsors-2 .widget-title{
