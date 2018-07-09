@@ -864,6 +864,7 @@ input[type='submit'],
 input[type='reset'],
 button,
 a.cta-button {
+  cursor:pointer;
   display: inline-block;
   margin: 0;
   padding: 12px 20px 15px;
