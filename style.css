@@ -480,7 +480,15 @@ a.btn.btn-info:hover{
 		text-decoration:none;
 
 }
+a.btn.btn-info span{
+	position:relative;
+}
 
+a.btn.btn-info span::after{
+	content: "\f00c";
+font-family: 'fontawesome';
+	margin-left:5px;
+}
 /***********************
      Sponsors Widgets
 ***********************/
@@ -506,7 +514,7 @@ a.btn.btn-info:hover{
   height: auto!important;
 max-height: 100px!important;
 width: auto!important;
-padding: 25px 25px 5px 55px !important;
+padding: 25px 25px 5px 55px!important;
 }
 
 #wcb_sponsors-2 .widget-title{
