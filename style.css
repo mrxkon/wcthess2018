@@ -173,6 +173,19 @@
       font-size: 36px;
     }
   }
+
+  @media (min-width: 0px) {
+    #wcb_sponsors-2 h2.widget-title {
+      font-size: calc(1.3125rem + ((1vw - 0px) * 2.125));
+    }
+  }
+  @media (min-width: 800px) {
+    #wcb_sponsors-2 h2.widget-title {
+      font-size: 38px;
+      font-weight:800;
+    }
+  }
+  
   
   
 /**************************
