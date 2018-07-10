@@ -958,7 +958,10 @@ a.cta-button {
     max-width: 100%; }
   .wp-caption .wp-caption-text {
     margin: 10px 0 8px;
-    text-align: left; }
+    text-align: center;
+    font-style: italic;
+    font-size: 1.6rem;
+    color: #666; }
 
 .page-navigation-container {
   position: relative;
