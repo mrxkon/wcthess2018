@@ -38,7 +38,7 @@
 	width: 588px;
 	z-index: -1;
 	display: block;
-	top:84.2%;
+  top: 83.2%;
 }
 
 #masthead::after {
@@ -46,7 +46,7 @@
 	display: block;
 	content: "";
 	background-image: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_right.png');
-		top:84.2%;
+	top: 83.2%;
   height: 3998px;
 	width: 530px;
 	right: 0;
