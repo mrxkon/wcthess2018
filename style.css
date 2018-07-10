@@ -761,7 +761,7 @@ img {
 a, a:visited {
   color: #1d1c65;
   text-decoration: none; }
-
+  
   a:hover, a:active, a:focus, a:visited:hover, a:visited:active, a:visited:focus {
     color: #28267a;
     text-decoration: underline; }
@@ -1381,16 +1381,16 @@ body:not(.home) .site-main {
  text-decoration:none;
     }
 
-    body.home .entry-content a:focus {
+.entry-content a:focus {
       background-size: 100% 80%;
       background-position: left 0 bottom 0; }
-    body.home .entry-content a:hover {
-      color:#fff!important;
-	  background-size: 100% 200%!important;
-  background-position: left 0 bottom 0!important;
-	 background-image: -webkit-linear-gradient(bottom, #28267a 50%, rgba(0, 0, 0, 0) 50.1%)!important;
-  background-image: -moz-linear-gradient(bottom, #28267a 50%, rgba(0, 0, 0, 0) 50.1%)!important;
-  background-image: linear-gradient(to top, #28267a 50%, rgba(0, 0, 0, 0) 50.1%)!important;}
+.entry-content a:hover {
+      color:#fff;
+	  background-size: 100% 200%;
+  background-position: left 0 bottom 0;
+	 background-image: -webkit-linear-gradient(bottom, #28267a 50%, rgba(0, 0, 0, 0) 50.1%);
+  background-image: -moz-linear-gradient(bottom, #28267a 50%, rgba(0, 0, 0, 0) 50.1%);
+  background-image: linear-gradient(to top, #28267a 50%, rgba(0, 0, 0, 0) 50.1%); }
 
 body.error404 .page-content {
   display: grid;
