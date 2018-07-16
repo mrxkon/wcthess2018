@@ -1937,3 +1937,8 @@ body div.slideshow-window * img {
 		margin-left: 20px;
 	}
 }
+article {
+	border-width: 0 10px 0 10px;
+	border-color: #1d1c65;
+	border-style: solid;
+}
