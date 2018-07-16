@@ -1984,3 +1984,6 @@ article.post-19 > .entry-content > ol {
 		margin: 0 30px;
 	}
 }
+.custom-header {
+	background-position: center right;
+}
