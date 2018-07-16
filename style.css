@@ -335,8 +335,7 @@ blockquote::after {
 	right: 10px;
 	bottom: -50px;
 }
-.entry-content h1,
-{
+.entry-content h1 {
 	font-size: 44px;
 	font-size: 4.4rem;
 }
