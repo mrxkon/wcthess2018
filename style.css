@@ -1912,7 +1912,7 @@ body div.slideshow-window * img {
 		text-align: -webkit-center;
 	}
 	.wcb_widget_sponsors .sponsor-logo img {
-		padding: 10px 0 0 16px !important;
+		padding: 0 16px 0 16px !important
 	}
 	h1.entry-title {
 		font-size: 4rem;
