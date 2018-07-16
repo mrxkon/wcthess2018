@@ -1840,8 +1840,8 @@ body.error404 .search-form input {
 Mocasisin Customizer Imports
 ************************************/
 .slideshow-window {
-	background-color: #fff;
-	border: 20px solid #fff;
+	background-color: #fff !important;
+	border: 20px solid #fff !important;
 }
 a {
 	word-wrap: break-word;
