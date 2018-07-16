@@ -1990,3 +1990,6 @@ article.post-19 > .entry-content > ol {
 article.post {
 	padding-top: 48px;
 }
+body.home a[href="#post-in-english"] {
+	display:none;
+}
