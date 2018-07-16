@@ -1946,4 +1946,5 @@ body {
 	background: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/fullback.jpg');
 	background-attachment: scroll;
 	background-position: 0 750px;
+	background-size: contain;
 }
