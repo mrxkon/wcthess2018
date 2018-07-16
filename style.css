@@ -1987,3 +1987,6 @@ article.post-19 > .entry-content > ol {
 .custom-header {
 	background-position: 70% center;
 }
+article.post {
+	padding-top: 48px;
+}
