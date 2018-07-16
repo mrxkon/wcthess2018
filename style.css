@@ -1882,9 +1882,6 @@ body div.slideshow-window * img {
 		position: fixed;
 		z-index: 99999;
 	}
-	.sharedaddy iframe {
-		margin-left: 30px;
-	}
 }
 @media screen and (max-width: 880px) {
 	#main h2, #main h3, #main h4 {
@@ -1929,5 +1926,10 @@ body div.slideshow-window * img {
 
 	#header-widget-1 section {
 		width: 100%;
+	}
+}
+@media screen and ( max-width: 800px ) {
+	#content div.sharedaddy iframe, #main div.sharedaddy iframe, div.sharedaddy iframe {
+		margin-left: 30px;
 	}
 }
