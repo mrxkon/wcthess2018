@@ -1952,3 +1952,36 @@ article.post-19 > .entry-content > ol {
 	list-style: none;
 	list-style-type: none;
 }
+.slideshow-window {
+	background-color: transparent;
+	border: 5px solid transparent;
+}
+.slideshow-slide-caption {
+	font-size: 20px;
+}
+@media screen and (max-width: 880px) {
+	.page-navigation-container li:hover a, .page-navigation-container li.focus a {
+		color: rgba(40,38,122,1);
+	}
+}
+@media screen and (max-width: 600px) {
+	#footer-widget-2 .wcb_widget_sponsors .sponsor-logo {
+		width: 100%;
+	}
+	#subscribe-email input {
+		width: 100% !important;
+		text-align: center;
+	}
+	#subscribe-submit input {
+		position: relative;
+		margin-top: 20px;
+	}
+	#subscribe-submit input {
+		width: 100%;
+		left: 0;
+		border-radius: 25px;
+	}
+	#contact-form-17 {
+		margin: 0 30px;
+	}
+}
