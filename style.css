@@ -20,9 +20,9 @@
 	margin: 0 auto;
 }
 #masthead {
-	position: relative
+	position: relative;
 }
-#masthead::before {
+/* #masthead::before {
 	position: absolute;
 	content: "";
 	background-image: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_brand_left.png');
@@ -43,7 +43,7 @@
 	width: 530px;
 	right: 0;
 	z-index: -1;
-}
+} */
 /**************************
 		 @media
 ***************************/
@@ -1941,4 +1941,9 @@ article {
 	border-width: 0 10px 0 10px;
 	border-color: #1d1c65;
 	border-style: solid;
+}
+body {
+	background: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/fullback.jpg');
+	background-attachment: scroll;
+	background-position: 0 750px;
 }
