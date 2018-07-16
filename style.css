@@ -1918,3 +1918,13 @@ body div.slideshow-window * img {
 		font-size: 4rem;
 	}
 }
+@media screen and ( max-width: 375px ) {
+	#header-widget-1 {
+		flex-wrap: wrap;
+		height: auto !important;
+	}
+
+	#header-widget-1 section {
+		width: 100%;
+	}
+}
