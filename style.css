@@ -1932,4 +1932,7 @@ body div.slideshow-window * img {
 	#content div.sharedaddy iframe, #main div.sharedaddy iframe, div.sharedaddy iframe {
 		margin-left: 30px;
 	}
+	.sharedaddy.sd-sharing-enabled div.sd-content {
+		margin-left: 20px;
+	}
 }
