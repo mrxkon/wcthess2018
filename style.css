@@ -1993,3 +1993,9 @@ article.post {
 body.home a[href="#post-in-english"] {
 	display:none;
 }
+.sponsor-level {
+	text-align: center;
+}
+#footer-widget-2 .wcb_widget_sponsors .sponsor-logo {
+	float: unset;
+}
