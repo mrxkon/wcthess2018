@@ -15,7 +15,7 @@
 	display: none;
 }
 #main {
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 1);
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -167,8 +167,17 @@
 	}
 }
 /**************************
-			Navigation Menu
+			Comments
 ***************************/
+#respond.comment-respond{
+	margin:0 30px;
+}
+.comment-list .comment-meta .comment-metadata,
+.comment-content p,
+.comment-author.vcard,
+.comment-content p{
+	margin:0 15px;
+}
 /**************************
 	Big Hero Image Index Page
 ***************************/
@@ -197,7 +206,7 @@ p.site-description {
 	letter-spacing: 1px;
 }
 .site-title a:hover {
-	color: #fff;
+	color:rgba(255, 255, 255, 1);
 	text-decoration: none;
 }
 p.site-title a,
@@ -208,7 +217,7 @@ h1.site-title a {
 }
 p.site-title a:hover,
 h1.site-title a:hover {
-	color: #fff;
+	color:rgba(255, 255, 255, 1);
 }
 p.site-title,
 h1.site-title {
@@ -248,7 +257,7 @@ h1.site-title {
 	max-width: 1160px;
 	display: flex;
 	flex-wrap: nowrap;
-	background-color: #fff;
+	background-color:rgba(255, 255, 255, 1);
 	box-shadow: 0 0 25px .75px rgba(0, 0, 0, 0.16);
 	-webkit-box-shadow: 0 0 25px .75px rgba(0, 0, 0, 0.16);
 	-moz-box-shadow: 0 0 25px .75px rgba(0, 0, 0, 0.16);
@@ -305,7 +314,7 @@ a.more-link {
 .entry-header .byline,
 .entry-meta span.posted-on a,
 .entry-meta span.posted-on {
-	color: #28267a;
+	color: rgba(40, 38, 122, 1);
 }
 .author.vcard a {
 	color: rgba(194, 181, 155, 1);
@@ -314,7 +323,7 @@ blockquote {
 	font-size: 2.4rem;
 	margin: 50px auto;
 	font-style: italic;
-	color: #555555;
+	color:rgba(85, 85, 85, 1)
 	padding: 19px 30px 19px 75px;
 	line-height: 1.6;
 	position: relative;
@@ -356,7 +365,7 @@ h2.entry-title {
  Buy Tickets Widgets
 ***********************/
 #footer-widget-1 {
-	background: #c2b59b;
+	background: rgba(194, 181, 155, 1);
 	margin: 120px 0 0;
 	padding: 100px 0 210px 0;
 	z-index: 600;
@@ -385,7 +394,7 @@ h2.entry-title {
 #footer-widget-1 .widget {
 	margin: 0 auto;
 	max-width: 1200px;
-	color: #28267a;
+	color: rgba(40, 38, 122, 1);
 	position: relative;
 	font-weight: 800;
 	z-index: 800;
@@ -415,7 +424,7 @@ a.btn.btn-info {
 	display: block;
 	width: 240px;
 	height: 75px;
-	background: #28267a;
+	background: rgba(40, 38, 122, 1);
 	padding: 13px;
 	text-align: center;
 	border-radius: 40px;
@@ -435,8 +444,8 @@ a.btn.btn-info {
 	-moz-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.36);
 }
 a.btn.btn-info:hover {
-	background-color: #fff;
-	color: #28267a;
+	background-color:rgba(255, 255, 255, 1)
+	color: rgba(40, 38, 122, 1);
 	border: 4px solid #28267a;
 	text-decoration: none;
 }
@@ -587,7 +596,7 @@ Subscribe Widgets
 }
 #subscribe-submit input {
 	position: absolute;
-	background: #28267a;
+	background: rgba(40, 38, 122, 1);
 	width: 15%;
 	padding: 0;
 	right: 0;
@@ -607,7 +616,7 @@ Subscribe Widgets
 }
 #subscribe-submit input:hover {
 	background-color: rgba(255, 255, 255, 1);
-	color: #1d1c65;
+	color: rgba(40, 38, 122, 1);
 	border: 4px solid #1d1c65;
 }
 /***********************
@@ -640,7 +649,7 @@ html {
 	font-size: 62.5%;
 }
 body {
-	color: 010101;
+	color: rgba(1, 1, 1, 1);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-size: 2rem;
@@ -659,7 +668,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #28267c;
+	color: rgba(40, 38, 122, 1);
 	clear: none;
 	font-weight: 800;
 	font-family: 'Open Sans', sans-serif;
@@ -686,7 +695,7 @@ img {
 }
 a,
 a:visited {
-	color: #1d1c65;
+	color: rgba(29, 28, 101, 1);
 	text-decoration: none;
 }
 a:hover,
@@ -695,7 +704,7 @@ a:focus,
 a:visited:hover,
 a:visited:active,
 a:visited:focus {
-	color: #28267a;
+	color: rgba(40, 38, 122, 1);
 	text-decoration: underline;
 }
 .entry-content h1,
@@ -716,7 +725,7 @@ textarea {
 	font-size: 1.8rem;
 	line-height: 1;
 	color: #1d215f;
-	background: #ffffff;
+	background: rgba(255, 255, 255, 1);
 	border: 1px solid #c9ccdd;
 	border-radius: 2px;
 	-webkit-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.15);
@@ -823,7 +832,7 @@ a.cta-button {
 	color: rgb(255, 255, 255);
 	background-color: rgba(40, 38, 122, 1);
 	border-width: 4px;
-	border-color: rgb(194, 181, 155);
+	border-color: rgba(194, 181, 155, 1);
 	font-size: 18px;
 	font-size: 1.8rem;
 	font-weight: bold;
@@ -929,12 +938,12 @@ a.cta-button:focus {
 }
 .page-navigation-container li:hover,
 .page-navigation-container li.focus {
-	color: #fff;
+	color: rgba(255, 255, 255, 1);
 	background-color: rgba(40, 38, 122, 1);
 }
 .page-navigation-container li:hover a,
 .page-navigation-container li.focus a {
-	color: #fff;
+	color: rgba(255, 255, 255, 1);
 	text-decoration: none;
 }
 .page-navigation-container ul ul {
@@ -944,18 +953,18 @@ a.cta-button:focus {
 .page-navigation-container ul ul a {
 	padding: 10px 15px;
 	background-color: rgba(40, 38, 122, 1);
-	color: #fff;
+	color: rgba(255, 255, 255, 1);
 	width: 200px;
 	border-top: 1px solid grey;
 }
 .page-navigation-container ul ul li:hover a,
 .page-navigation-container ul ul li.focus a {
-	color: #1d215f;
+	color: rgba(29, 33, 95, 1);
 }
 .page-navigation-container .callout {
 	position: absolute;
 	right: 0;
-	background: #fff;
+	background: rgba(255, 255, 255, 1);
 }
 .page-navigation-container .callout a {
 	padding: 30px 50px;
@@ -966,7 +975,7 @@ a.cta-button:focus {
 }
 .page-navigation-container .callout:hover a,
 .page-navigation-container .callout.focus a {
-	color: #1d215f;
+	color: rgba(29, 33, 95, 1);
 }
 #site-navigation {
 	display: none !important;
@@ -1622,6 +1631,7 @@ body.error404 .search-form input {
 }
 .comment-list .comment-meta .comment-metadata {
 	text-align: right;
+	margin-right:15px;
 }
 .comment-list .comment-reply-link {
 	display: inline-block;
@@ -1632,7 +1642,7 @@ body.error404 .search-form input {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #1d215f;
+	color: rgba(29, 33, 95, 1);
 	background: #ff9700;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -1649,24 +1659,26 @@ body.error404 .search-form input {
 	box-shadow: 0 2px 7px 2px rgba(102, 60, 0, 0.2), 0 1px 1px 0 rgba(102, 60, 0, 0.1);
 }
 .comment-list .comment-reply-link:focus {
-	outline: 2px solid #1d215f;
+	outline: 2px solid rgba(29, 33, 95, 1);
 }
 .comment-list .thread-even .comment-reply-link {
-	font-size: 28px;
-	font-size: 2.8rem;
-	line-height: 1;
-	font-weight: 900;
-	text-align: center;
-	text-decoration: none;
-	color: #1d215f;
-	background: #c6dc00;
 	font-size: 16px;
 	font-size: 1.6rem;
-	font-weight: bold;
+	line-height: 1;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+	background:rgba(29, 33, 95, 1);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	border-radius:25px;
+	-webkit-border-radius: 25px; 
+	-moz-border-radius: 25px; 
+	margin:24px 0 48px 0;
+	
 }
 .comment-list .thread-even .comment-reply-link:hover,
 .comment-list .thread-even .comment-reply-link:active,
@@ -1675,7 +1687,7 @@ body.error404 .search-form input {
 	box-shadow: 0 2px 7px 2px rgba(79, 88, 0, 0.2), 0 1px 1px 0 rgba(79, 88, 0, 0.1);
 }
 .comment-list .thread-even .comment-reply-link:focus {
-	outline: 2px solid #1d215f;
+	outline: 2px solid rgba(29, 33, 95, 1);
 }
 .comment-form {
 	margin-bottom: 60px;
