@@ -730,7 +730,7 @@ textarea {
 	font-size: 18px;
 	font-size: 1.8rem;
 	line-height: 1;
-	color: #1d215f;
+	color: rgba(29, 33, 95, 1);
 	background: rgba(255, 255, 255, 1);
 	border: 1px solid #c9ccdd;
 	border-radius: 2px;
@@ -825,6 +825,8 @@ a.cta-button {
 	margin: 0;
 	padding: 12px 20px 15px;
 	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
 	border: none;
 	text-shadow: none;
 	-webkit-box-shadow: none;
@@ -841,8 +843,7 @@ a.cta-button {
 	border-color: rgba(194, 181, 155, 1);
 	font-size: 18px;
 	font-size: 1.8rem;
-	font-weight: bold;
-	text-transform: inherit;
+	text-transform: uppercase;
 	letter-spacing: 1px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
