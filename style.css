@@ -1864,6 +1864,7 @@ body div.slideshow-window * img {
 .page-navigation-container li ul li a {
 	text-align: -webkit-left;
 	font-size: 16px;
+	text-align:left;
 }
 .sponsor-level-title:after, .sponsor-level-title:before {
 	width: 25%;
