@@ -1643,21 +1643,21 @@ body.error404 .search-form input {
 .comment-list .comment-reply-link {
 	display: inline-block;
 	padding: 10px 20px;
-	font-size: 28px;
-	font-size: 2.8rem;
 	line-height: 1;
-	font-weight: 900;
+	font-weight: 700;
 	text-align: center;
 	text-decoration: none;
-	color: rgba(29, 33, 95, 1);
-	background: #ff9700;
+	color: rgba(255, 255, 255, 1);
+	background:rgba(29, 33, 95, 1);
 	font-size: 16px;
 	font-size: 1.6rem;
-	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	border-radius:25px;
+	-webkit-border-radius: 25px; 
+	-moz-border-radius: 25px; 
 }
 .comment-list .comment-reply-link:hover,
 .comment-list .comment-reply-link:active,
@@ -1685,7 +1685,6 @@ body.error404 .search-form input {
 	-webkit-border-radius: 25px; 
 	-moz-border-radius: 25px; 
 	margin:24px 0 48px 15px;
-	
 }
 .comment-list .thread-even .comment-reply-link:hover,
 .comment-list .thread-even .comment-reply-link:active,
