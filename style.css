@@ -1999,3 +1999,9 @@ body.home a[href="#post-in-english"] {
 #footer-widget-2 .wcb_widget_sponsors .sponsor-logo {
 	float: unset;
 }
+table.xorig-table tbody {
+	font-size: 15px !important;
+}
+table.xorig-table tbody td {
+	padding: 5px !important;
+}
