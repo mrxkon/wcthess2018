@@ -169,6 +169,12 @@
 /**************************
 			Comments
 ***************************/
+p.form-submit{
+	padding:20px 0 25px 0;
+}
+p.comment-subscription-form{
+	margin:0;
+}
 #respond.comment-respond{
 	margin:0 30px;
 }
@@ -1677,7 +1683,7 @@ body.error404 .search-form input {
 	border-radius:25px;
 	-webkit-border-radius: 25px; 
 	-moz-border-radius: 25px; 
-	margin:24px 0 48px 0;
+	margin:24px 0 48px 15px;
 	
 }
 .comment-list .thread-even .comment-reply-link:hover,
