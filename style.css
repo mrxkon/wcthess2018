@@ -736,6 +736,9 @@ textarea {
 	border-radius: 2px;
 	-webkit-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
 }
 input[type="text"] ::-webkit-input-placeholder,
 input[type="email"] ::-webkit-input-placeholder,
@@ -804,6 +807,9 @@ textarea {
 	width: 100%;
 	line-height: 1.5;
 	border-width: 1px;
+	border-radius:25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
 }
 label {
 	display: block;
@@ -2005,6 +2011,8 @@ article.post-19 > .entry-content > ol {
 		width: 100%;
 		left: 0;
 		border-radius: 25px;
+		-webkit-border-radius: 25px;
+		-moz-border-radius: 25px;
 	}
 	#contact-form-17 {
 		margin: 0 30px;
