@@ -2057,6 +2057,6 @@ table.xorig-table tbody td {
 	padding: 5px !important;
 }
 
-.home:not()	.custom-header {
+body:not(.home)	.custom-header {
 		height: 685px;
 	}
