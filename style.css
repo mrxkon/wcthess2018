@@ -1633,7 +1633,7 @@ body.error404 .search-form input {
 	margin: 65px 0 5px 15px;
 	font-size: 28px;
 	font-size: 2.8rem;
-	
+
 }
 .comment-list {
 	list-style: none;
@@ -1680,8 +1680,8 @@ body.error404 .search-form input {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	border-radius:25px;
-	-webkit-border-radius: 25px; 
-	-moz-border-radius: 25px; 
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
 }
 .comment-list .comment-reply-link:hover,
 .comment-list .comment-reply-link:active,
@@ -1706,8 +1706,8 @@ body.error404 .search-form input {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	border-radius:25px;
-	-webkit-border-radius: 25px; 
-	-moz-border-radius: 25px; 
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
 	margin:24px 0 48px 15px;
 }
 .comment-list .thread-even .comment-reply-link:hover,
@@ -2056,3 +2056,7 @@ table.xorig-table tbody {
 table.xorig-table tbody td {
 	padding: 5px !important;
 }
+
+.home:not()	.custom-header {
+		height: 685px;
+	}
