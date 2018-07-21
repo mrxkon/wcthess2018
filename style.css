@@ -169,6 +169,11 @@
 /**************************
 			Comments
 ***************************/
+
+p.comment-notes {
+	font-size: 16px;
+	font-size:1.6rem;
+}
 p.form-submit{
 	padding:20px 0 25px 0;
 }
@@ -1909,8 +1914,8 @@ body div.slideshow-window * img {
 		position: fixed;
 		z-index: 99999;
 		box-shadow: 0 8px 6px -6px #999
-		-webkit-box-shadow: 0 8px 6px -6px #999/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-		-moz-box-shadow: 0 8px 6px -6px #999 /* Firefox 3.5 - 3.6 */
+		-webkit-box-shadow: 0 8px 6px -6px #999;
+		-moz-box-shadow: 0 8px 6px -6px #999;
 	}
 }
 @media screen and (max-width: 880px) {
