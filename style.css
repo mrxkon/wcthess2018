@@ -601,9 +601,6 @@ Subscribe Widgets
 }
 #subscribe-email input[type="email"]:focus {
 	border-radius: 25px 0px 0px 25px!important;
-	-webkit-box-shadow: inset 0px 0px 5px rgba(40, 38, 122, 0.57);
-	-moz-box-shadow: inset 0px 0px 5px rgba(40, 38, 122, 0.57);
-	box-shadow: inset 0px 0px 5px rgba(40, 38, 122, 0.57);
 }
 #subscribe-submit input {
 	position: absolute;
@@ -789,18 +786,22 @@ textarea :-moz-placeholder {
 	opacity: 1;
 }
 input[type="text"]:focus,
+input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 select:focus,
 textarea:focus,
 input[type="text"]:hover,
+input[type="email"]:hover,
 input[type="url"]:hover,
 input[type="password"]:hover,
 input[type="search"]:hover,
 select:hover,
 textarea:hover{
-	border:1px solid rgba(40,38,122,1);
+	border-style:solid;
+    border-color:rgba(40,38,122,1);
+    border-width:1px;
 }
 
 
