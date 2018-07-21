@@ -801,7 +801,8 @@ select:hover,
 textarea:hover{
 	border-style:solid;
     border-color:rgba(40,38,122,1);
-    border-width:1px;
+	border-width:1px;
+	outline:none;
 }
 
 
