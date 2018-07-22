@@ -2079,3 +2079,6 @@ body:not(.home)	.custom-header {
 		height: 600px;
 }
 
+img.aligncenter{
+	margin:0 auto;
+}
