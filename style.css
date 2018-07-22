@@ -2069,8 +2069,13 @@ table.xorig-table tbody {
 table.xorig-table tbody td {
 	padding: 5px !important;
 }
-
+body:not(.home) #wp-custom-header img{
+	max-width: 200px;
+}
+body:not(.home) p.site-title a, body:not(.home) h1.site-title a {
+    font-size: 3.1rem;
+}
 body:not(.home)	.custom-header {
-		height: 685px;
-	}
+		height: 600px;
+}
 
