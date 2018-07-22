@@ -2011,8 +2011,15 @@ article.post-19 > .entry-content > ol {
 	.page-navigation-container li:hover a, .page-navigation-container li.focus a {
 		color: rgba(40,38,122,1);
 	}
-	body:not(.home) p.site-title a {
-		font-size: 3.5rem;
+	body:not(.home) .custom-header .wp-custom-header, body:not(.home) .custom-header .custom-logo-link {
+		padding-top: 50px;
+		max-width: 500px;
+	}
+	body:not(.home)	.custom-header {
+		height: 475px;
+	}
+	body:not(.home) p.site-title  {
+		display: none;
 		}
 	body:not(.home) p.site-description {
 		font-size: 1.4rem;
