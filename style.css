@@ -2011,6 +2011,12 @@ article.post-19 > .entry-content > ol {
 	.page-navigation-container li:hover a, .page-navigation-container li.focus a {
 		color: rgba(40,38,122,1);
 	}
+	p.site-title a {
+		font-size: 3.5rem;
+		}
+	p.site-description {
+		font-size: 1.4rem;
+		}
 }
 @media screen and (max-width: 600px) {
 	#footer-widget-2 .wcb_widget_sponsors .sponsor-logo {
@@ -2060,3 +2066,4 @@ table.xorig-table tbody td {
 body:not(.home)	.custom-header {
 		height: 685px;
 	}
+
