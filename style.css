@@ -981,11 +981,12 @@ a.cta-button:focus {
 	background-color: rgba(40, 38, 122, 1);
 }
 .page-navigation-container ul ul a {
-	padding: 10px 15px;
+	padding: 16px 16px;
 	background-color: rgba(40, 38, 122, 1);
 	color: rgba(255, 255, 255, 1);
-	width: 200px;
+	width: 220px;
 	border-top: 1px solid grey;
+	line-height: 1.4;
 }
 .page-navigation-container ul ul li:hover a,
 .page-navigation-container ul ul li.focus a {
