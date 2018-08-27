@@ -2085,9 +2085,25 @@ img.aligncenter{
 }
 
 #main article button{
-	border-radius:0px;
+	display: block;
+	border: 4px solid #fff;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 0 2px 16px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0 2px 16px rgba(0,0,0,0.36);
 }
 #main article button a{
 	color:#fff;
-	text-decoration: none
+	text-decoration: none;
+	margin: 0 auto;
+}
+#main article button:hover{
+	border: 4px solid #28267a;
+	background-color: #fff;
+}
+#main article button:hover a{
+	color: #28267a;
 }
