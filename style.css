@@ -2083,3 +2083,11 @@ body:not(.home)	.custom-header {
 img.aligncenter{
 	margin:0 auto;
 }
+
+#main .article button{
+	border-radius:0px;
+}
+#main .article button a{
+	color:#fff;
+	text-decoration: none
+}
