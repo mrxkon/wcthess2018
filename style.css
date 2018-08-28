@@ -2110,3 +2110,5 @@ img.aligncenter{
 	background-image:none;
 	text-decoration: none;
 }
+#main article .entry-content img.size-full {
+    width: auto;
