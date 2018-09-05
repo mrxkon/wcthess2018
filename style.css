@@ -2135,10 +2135,10 @@ img.aligncenter{
 }
 
 @media screen and (max-width: 880px){
-	.logged-in .js .menu-toggle, .js .dropdown-toggle {
+	.js .logged-in  .menu-toggle, .js .dropdown-toggle {
 		visibility: hidden;
 	}
-	.logged-in .js .menu-toggle, .js .dropdown-toggle:before {
+	.js .logged-in .menu-toggle, .js .dropdown-toggle:before {
 	content: 'This is new content, replacing existing content';
 	visibility:visible;
 	}
