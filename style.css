@@ -2138,18 +2138,19 @@ img.aligncenter{
 	#header-navigation button.menu-toggle {
 		text-indent: -9999px;
 		line-height:0;
+		color:transparent
 		/*visibility: hidden; */
 	}
 	#header-navigation button.menu-toggle:before {
-	content: 'Main Menu';
-	text-indent:0;
-	display:block;
-	line-height: initial;
-
-	/* visibility:visible;
-	display: inline-block;
-	width: 100%;
-	top: 10px;
-    position: relative; */
+		content: 'Main Menu';
+		text-indent:0;
+		display:block;
+		line-height: initial;
+		color:#000;
+		/* visibility:visible;
+		display: inline-block;
+		width: 100%;
+		top: 10px;
+		position: relative; */
 	}
 }
