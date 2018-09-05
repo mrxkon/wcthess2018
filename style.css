@@ -2141,7 +2141,7 @@ img.aligncenter{
 	#header-navigation button.menu-toggle:before {
 	content: 'Main Menu';
 	visibility:visible;
-	position: relative;
-    left: 90px;
+	display: inline-block;
+    width: 100%;
 	}
 }
