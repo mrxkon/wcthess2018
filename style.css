@@ -2133,3 +2133,13 @@ img.aligncenter{
 #main article .entry-content img.size-full {
     width: auto;
 }
+
+@media screen and (max-width: 880px){
+	.logged-in .js .menu-toggle, .js .dropdown-toggle {
+		visibility: hidden;
+	}
+	.logged-in .js .menu-toggle, .js .dropdown-toggle:before {
+	content: 'This is new content, replacing existing content';
+	visibility:visible;
+	}
+}
