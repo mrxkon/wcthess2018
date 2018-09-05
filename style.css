@@ -503,8 +503,8 @@ a.btn.btn-info span::after {
 .wcb_widget_sponsors .sponsor-logo img {
     height: auto !important;
     max-height: 70px !important;
+	}
 }
-
 @media screen and (max-width: 600px){
 	footer #footer-widget-2 .wcb_widget_sponsors .sponsor-logo img {
 	float: unset;
