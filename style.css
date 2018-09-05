@@ -2135,11 +2135,13 @@ img.aligncenter{
 }
 
 @media screen and (max-width: 880px){
-	.logged-in  #header-navigation button.menu-toggle {
+	#header-navigation button.menu-toggle {
 		visibility: hidden;
 	}
-	.logged-in #header-navigation button.menu-toggle:before {
+	#header-navigation button.menu-toggle:before {
 	content: 'Main Menu';
 	visibility:visible;
+	position: relative;
+    left: 90px;
 	}
 }
