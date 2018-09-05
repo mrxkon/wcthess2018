@@ -489,7 +489,7 @@ a.btn.btn-info span::after {
 }
 .wcb_widget_sponsors .sponsor-logo img {
 	height: auto!important;
-	max-height: 100px!important;
+	max-height: 75px!important;
 	width: auto!important;
 	padding: 25px 25px 5px 55px!important;
 }
@@ -2062,7 +2062,7 @@ body.home a[href="#post-in-english"] {
 	text-align: center;
 }
 #footer-widget-2 .wcb_widget_sponsors .sponsor-logo {
-	float: unset;
+	/* float: unset; */
 }
 table.xorig-table tbody {
 	font-size: 15px !important;
