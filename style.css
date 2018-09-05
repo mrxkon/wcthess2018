@@ -2136,14 +2136,20 @@ img.aligncenter{
 
 @media screen and (max-width: 880px){
 	#header-navigation button.menu-toggle {
-		visibility: hidden;
+		text-indent: -9999px;
+		line-height:0;
+		/*visibility: hidden; */
 	}
 	#header-navigation button.menu-toggle:before {
 	content: 'Main Menu';
-	visibility:visible;
+	text-indent:0;
+	display:block;
+	line-height: initial;
+
+	/* visibility:visible;
 	display: inline-block;
 	width: 100%;
 	top: 10px;
-    position: relative;
+    position: relative; */
 	}
 }
