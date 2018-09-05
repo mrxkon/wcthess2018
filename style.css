@@ -493,6 +493,10 @@ a.btn.btn-info span::after {
 	width: auto!important;
 	padding: 25px 25px 5px 55px!important;
 }
+.sponsor-level.gold-sponsors a:nth-child(3) img{
+	max-height: 110px!important;
+}
+
 #wcb_sponsors-2 .widget-title {
 	font-weight: 700;
 }
