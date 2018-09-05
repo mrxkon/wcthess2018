@@ -499,10 +499,10 @@ a.btn.btn-info span::after {
 	}
 }
 @media screen and (max-width: 600px){
-	#footer-widget-2 .wcb_widget_sponsors .sponsor-logo img {
+	footer #footer-widget-2 .wcb_widget_sponsors .sponsor-logo img {
 	float: unset;
 	}
-}
+
 #wcb_sponsors-2 .widget-title {
 	font-weight: 700;
 }
