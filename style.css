@@ -8,6 +8,8 @@
 /**************************
 		 General
 ***************************/
+
+
 .updated,
 #content-widget-1 h2,
 .textwidget.custom-html-widget a h2,
@@ -474,11 +476,14 @@ a.btn.btn-info span::after {
 /***********************
  Sponsors Widgets
 ***********************/
+.sponsor-level.business{
+	display: none!important;
+}
 #footer-widget-2 {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 145px 0 185px 0;
+	padding: 145px 0 285px 0;
 }
 #wcb_sponsors-2 h2.widget-title {
 	text-align: center;
