@@ -476,7 +476,7 @@ a.btn.btn-info span::after {
 /***********************
  Sponsors Widgets
 ***********************/
-.sponsor-level.business{
+.home .sponsor-level.business{
 	display: none!important;
 }
 #footer-widget-2 {
