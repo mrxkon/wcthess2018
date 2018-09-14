@@ -705,6 +705,13 @@ img.business-sponsor{
 /***********************
 Tickets 
 ***********************/
+table.tix_tickets_table td.tix-column-description, .tix-ticket-form td.tix-column-description{
+padding:0!important;
+}
+table.tix_tickets_table tbody tr td{
+	padding-top:15px;
+}
+
 table.tix_tickets_table {
     position: relative;
     margin: 23px 0 46px 0;
