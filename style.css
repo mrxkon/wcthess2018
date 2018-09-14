@@ -705,6 +705,10 @@ img.business-sponsor{
 /***********************
 Tickets 
 ***********************/
+table.tix_tickets_table {
+    position: relative;
+    margin: 23px 0 46px 0;
+}
 table.tix_tickets_table td.tix-column-quantity select{
 width:85px!important;
 }
