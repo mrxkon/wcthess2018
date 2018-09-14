@@ -673,6 +673,35 @@ Social Media Widgets
 	padding: 10px!important;
 	background-color: #fff!important;
 }
+
+/***********************
+Sponsors
+***********************/
+
+img.gold-sponsor{
+	max-width: 375px;
+	max-height:187px;
+	display: block;
+}
+
+img.silver-sponsor{
+	max-width: 325px;
+	max-height:163px;
+	display: block;
+}
+
+img.bronze-sponsor{
+	max-width: 275px;
+	max-height: 138px;
+	display:block;
+}
+
+img.business-sponsor{
+	max-width: 225px;
+	max-height:113px;
+	display: block;
+}
+
 /***********************
 <---- END HERE ------->
 ***********************/
