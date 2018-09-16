@@ -1585,10 +1585,7 @@ body.error404 .search-form input {
 	-webkit-box-shadow: 7px 7px 0 #c2b59b, -7px -7px 0 #1d215f;
 	box-shadow: 7px 7px 0 #c2b59b, -7px -7px 0 #1d215f;
 }
-.tix_tickets_table .tix-column-description,
-.tix-ticket-form .tix-column-description {
-	max-width: 200px;
-}
+
 .tix_tickets_table th.tix-column-description,
 .tix-ticket-form th.tix-column-description {
 	text-align: left;
