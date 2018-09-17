@@ -703,7 +703,7 @@ img.business-sponsor{
 }
 
 /***********************
-Tickets 
+Tickets
 ***********************/
 
 table.tix_tickets_table tbody tr td{
@@ -2199,4 +2199,9 @@ img.aligncenter{
 		top: 10px;
 		position: relative; */
 	}
+}
+.postid-845 #footer-widget-1,
+.postid-268 #footer-widget-1,
+.postid-510 #footer-widget-1{
+	display:none;
 }
