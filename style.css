@@ -727,7 +727,8 @@ table.tix_tickets_table tbody tr td{
 }
 
 table.tix_tickets_table {
-    position: relative;
+	position: relative;
+	
     padding: 15px 15px 46px 15px;
 }
 table.tix_tickets_table td.tix-column-quantity select{
@@ -1509,6 +1510,7 @@ body:not(.home) .site-main {
 	color: #010101;
 	text-align: left;
 	margin: auto;
+	padding:15px;
 }
 .entry-content .cfa-title {
 	display: block;
