@@ -50,13 +50,18 @@
 		 @media
 ***************************/
 
-@media screen and (max-width: 820px) {
+@media only screen and (max-width: 820px) {
 	table {
 		width:100%;
 	}
-
+	.tix_tickets_table .tix-column-price,
+	.tix_tickets_table .tix-column-quantity,
+	.tix-ticket-form .tix-column-price,
+	.tix-ticket-form .tix-column-quantity {
+		padding:0;
+	}
 	.tix_tickets_table .tix_tickets_table .tix-column-quantity, .tix-ticket-form .tix-ticket-form .tix-column-quantity{
-		width:0!important;
+		width:0;
 	}
 
 	table, thead, tbody, th, td, tr { 
@@ -1619,7 +1624,7 @@ body.error404 .search-form input {
 .tix-ticket-form .tix-column-price,
 .tix-ticket-form .tix-column-quantity {
 	text-align: left;
-
+	padding:15px;
 }
 .tix_tickets_table .tix-row-coupon td,
 .tix-ticket-form .tix-row-coupon td {
