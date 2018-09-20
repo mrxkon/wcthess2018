@@ -54,9 +54,11 @@
 	table {
 		width:100%;
 	}
+
 	.tix_tickets_table .tix_tickets_table .tix-column-quantity, .tix-ticket-form .tix-ticket-form .tix-column-quantity{
 		width:0!important;
 	}
+
 	table, thead, tbody, th, td, tr { 
 		display: inline-block; 
 	}
@@ -726,7 +728,7 @@ table.tix_tickets_table tbody tr td{
 
 table.tix_tickets_table {
     position: relative;
-    margin: 23px 0 46px 0;
+    margin: 23px 15px 46px 15px;
 }
 table.tix_tickets_table td.tix-column-quantity select{
 width:85px!important;
