@@ -71,10 +71,7 @@
 	body{
 		background-image:none!important;
 	}
-	.entry-content p {
-		margin-left: 30px;
-		margin-right: 30px;
-	}
+
 	.textwidget.custom-html-widget img {
 		display: none!important;
 	}
