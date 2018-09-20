@@ -69,7 +69,6 @@
 		border: none;
 		border-bottom: 1px solid #eee; 
 		position: relative;
-		padding-left: 50%; 
 	}
 
 	td:before { 
@@ -80,7 +79,6 @@
 		padding-right: 10px; 
 		white-space: nowrap;
 		content: attr(data-column);
-
 		color: #000;
 		font-weight: bold;
 	}
