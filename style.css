@@ -729,7 +729,7 @@ table.tix_tickets_table tbody tr td{
 table.tix_tickets_table {
 	position: relative;
 	
-    padding: 15px 15px 46px 15px;
+    padding: 15px 0 46px;
 }
 table.tix_tickets_table td.tix-column-quantity select{
 width:85px!important;
