@@ -1620,7 +1620,7 @@ body.error404 .search-form input {
 .tix-ticket-form .tix-column-price,
 .tix-ticket-form .tix-column-quantity {
 	text-align: right;
-	width: 6em;
+	padding:15px;
 }
 .tix_tickets_table .tix-row-coupon td,
 .tix-ticket-form .tix-row-coupon td {
