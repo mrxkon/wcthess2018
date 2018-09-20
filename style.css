@@ -50,7 +50,7 @@
 		 @media
 ***************************/
 
-@media only screen and (max-width: 820px) {
+@media screen and (max-width: 820px) {
 	table {
 		width:100%;
 	}
@@ -58,7 +58,7 @@
 	.tix_tickets_table .tix-column-quantity,
 	.tix-ticket-form .tix-column-price,
 	.tix-ticket-form .tix-column-quantity {
-		padding:0;
+		padding:8px!important;
 	}
 	.tix_tickets_table .tix_tickets_table .tix-column-quantity, .tix-ticket-form .tix-ticket-form .tix-column-quantity{
 		width:0;
