@@ -54,7 +54,7 @@
 	table {
 		width:100%;
 	}
-	.tix_tickets_table .tix-column-price, .tix_tickets_table .tix-column-quantity, .tix-ticket-form .tix-column-price, .tix-ticket-form .tix-column-quantity{
+	.tix_tickets_table .tix_tickets_table .tix-column-quantity, .tix-ticket-form .tix-ticket-form .tix-column-quantity{
 		width:0!important;
 	}
 	table, thead, tbody, th, td, tr { 
