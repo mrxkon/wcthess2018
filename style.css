@@ -73,6 +73,12 @@
 		left: -9999px;
 	}
 
+	.tix_tickets_table .tix-column-remaining,
+.tix-ticket-form .tix-column-remaining {
+	text-align: left;
+	padding-left:15px;
+}
+
 	body{
 		background-image:none!important;
 	}
@@ -1615,9 +1621,15 @@ body.error404 .search-form input {
 .tix-ticket-form td.tix-column-description {
 	padding-top: 15px;
 }
+/*
 .tix_tickets_table .tix-column-remaining,
 .tix-ticket-form .tix-column-remaining {
 	display: block;
+}
+
+*/
+.tix-column-remaining {
+	text-align: center;
 }
 .tix_tickets_table .tix-column-price,
 .tix_tickets_table .tix-column-quantity,
