@@ -60,14 +60,7 @@
 	.tix-ticket-form .tix-column-quantity {
 		padding:8px!important;
 	}
-	.tix_tickets_table .tix_tickets_table .tix-column-quantity, .tix-ticket-form .tix-ticket-form .tix-column-quantity{
-		width:0;
-	}
 
-	.tix-order-summary .tix-row-total td,
-.tix-order-summary .tix-column-price {
-	text-align: left;
-}
 
 	table, thead, tbody, th, td, tr { 
 		display: block; 
@@ -83,6 +76,25 @@
 	text-align: left;
 	padding-left:15px;
 }
+
+/* Checkout */
+.tix_tickets_table .tix_tickets_table .tix-column-quantity, .tix-ticket-form .tix-ticket-form .tix-column-quantity{
+	width:0;
+}
+.tix-ticket-form td.tix-right, .tix-private-form td.tix-right, .tix-attendee-form td.tix-right, .tix-receipt-form td.tix-right{
+	width: 100%!important;
+	margin:15px 0 15px 0;
+}
+
+.tix-attendee-form .tix-right{
+	padding:0!important;
+}
+.tix-order-summary .tix-row-total td,
+.tix-order-summary .tix-column-price {
+text-align: left!important;
+}
+
+
 
 	body{
 		background-image:none!important;
