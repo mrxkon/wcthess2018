@@ -1617,7 +1617,7 @@ body.error404 .search-form input {
 }
 .tix_tickets_table .tix-column-remaining,
 .tix-ticket-form .tix-column-remaining {
-	display: none;
+	display: block;
 }
 .tix_tickets_table .tix-column-price,
 .tix_tickets_table .tix-column-quantity,
