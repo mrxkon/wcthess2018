@@ -730,6 +730,9 @@ img.business-sponsor{
 Tickets
 ***********************/
 
+table.tix_tickets_table tbody tr td{
+padding:0;
+}
 
 table.tix_tickets_table {
 	position: relative;
