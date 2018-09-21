@@ -749,15 +749,14 @@ img.business-sponsor{
 
 /***********************
 Tickets
-***********************/
+**********************
 
 table.tix_tickets_table tbody tr td{
 padding:0;
 }
-
+*/
 table.tix_tickets_table {
 	position: relative;
-	
     padding: 15px 0 46px;
 }
 table.tix_tickets_table td.tix-column-quantity select{
