@@ -86,6 +86,10 @@
 	margin:15px 0 15px 0;
 }
 
+.tix-ticket-form td.tix-left, .tix-private-form td.tix-left, .tix-attendee-form td.tix-left, .tix-receipt-form td.tix-left{
+	width: 100%!important;
+}
+
 .tix-attendee-form .tix-right{
 	padding:0!important;
 }
