@@ -62,10 +62,10 @@
 	}
 
 
-	table, thead, tbody, th, td, tr { 
-		display: block; 
+	table, thead, tbody, th, td, tr {
+		display: block;
 	}
-	thead tr { 
+	thead tr {
 		position: absolute;
 		top: -9999px;
 		left: -9999px;
@@ -608,7 +608,7 @@ a.btn.btn-info span::after {
 	max-height: 150px;
 	width: auto;
 	display: inline-block;
-	float: left;
+	float: none;
 }
 #wcb_sponsors-2.widget.wcb_widget_sponsors {
 	margin: 0 auto;
