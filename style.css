@@ -539,7 +539,6 @@ a.btn.btn-info span::after {
 }
 .wcb_widget_sponsors .sponsor-logo img {
 	height: auto!important;
-	max-height: 100px!important;
 	width: auto!important;
 	padding: 25px 25px 5px 55px!important;
 }
