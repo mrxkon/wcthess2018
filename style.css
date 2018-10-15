@@ -2257,3 +2257,10 @@ img.aligncenter{
 .postid-510 #footer-widget-1{
 	display:none;
 }
+
+
+@media screen and (max-width: 600px)
+    #footer-widget-3 {
+        margin-top: 126px;
+    }
+}
