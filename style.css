@@ -521,7 +521,7 @@ a.btn.btn-info span::after {
 /***********************
  Sponsors Widgets
 ***********************/
-.home .sponsor-level.business{
+.home .sponsor-level.business, .home .sponsor-level.bronze{
 	display: none!important;
 }
 #footer-widget-2 {
