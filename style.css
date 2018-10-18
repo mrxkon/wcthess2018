@@ -707,6 +707,7 @@ Social Media Widgets
 }
 #jetpack_widget_social_icons-2 {
 	text-align: center!important;
+	display: none;
 }
 .jetpack_widget_social_icons ul.size-large a {
 	height: 64px!important;
@@ -2257,7 +2258,7 @@ img.aligncenter{
 	display:none;
 }
 
-/*
+
 @media screen and (max-width: 600px){
     #footer-widget-3 {
         margin-top: 126px;
