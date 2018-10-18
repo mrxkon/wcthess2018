@@ -2166,6 +2166,7 @@ article.post-19 > .entry-content > ol {
 		margin: 0 30px;
 	}
 }
+
 .custom-header {
 	background-position: 70% center;
 }
@@ -2178,9 +2179,7 @@ body.home a[href="#post-in-english"] {
 .sponsor-level {
 	text-align: center;
 }
-#footer-widget-2 .wcb_widget_sponsors .sponsor-logo {
-	/* float: unset; */
-}
+
 table.xorig-table tbody {
 	font-size: 15px !important;
 }
@@ -2258,6 +2257,7 @@ img.aligncenter{
 	display:none;
 }
 
+/*
 @media screen and (max-width: 600px){
     #footer-widget-3 {
         margin-top: 126px;
