@@ -625,6 +625,15 @@ a.btn.btn-info span::after {
 	}
 }
 /***********************
+Sponsors images
+***********************/
+.wp-image-2165.size-full.alignnone,
+img.aligncenter.silver-sponsor{
+max-width: 320px;
+max-height:160px;
+display: block;
+}
+/***********************
 Subscribe Widgets
 ***********************/
 #footer-widget-3 {
