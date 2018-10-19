@@ -627,16 +627,21 @@ a.btn.btn-info span::after {
 /***********************
 Sponsors images
 ***********************/
+img.aligncenter.gold-sponsor{
+	margin-left:0;
+}
 .wp-image-2165.size-full.alignnone,
 img.aligncenter.silver-sponsor{
 max-width: 320px;
 max-height:160px;
 display: block;
+margin-left:0
 }
 .wp-image-2149.size-medium.alignnone{
 	max-width: 210px;
 	max-height: 145px;
 	display: block;
+	margin-left:0
 }
 /***********************
 Subscribe Widgets
