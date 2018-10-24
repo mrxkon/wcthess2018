@@ -627,6 +627,7 @@ a.btn.btn-info span::after {
 /***********************
 Sponsors images
 ***********************/
+
 img.aligncenter.business-sponsor,
 img.aligncenter.gold-sponsor{
 	margin-left:0;
@@ -644,7 +645,7 @@ margin-left:0
 	display: block;
 	margin-left:0
 }
-
+img.wp-image-2191.size-full.alignnone,
 img.size-full.wp-image-2029.aligncenter{
 	margin-left:0;
 }
