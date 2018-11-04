@@ -2309,6 +2309,7 @@ img.aligncenter{
 
 .xorigoi_epikinonias_wrapper img {
 	max-width: 150px !important;
+	max-height: 130px !important;
 	margin: 0 auto !important;
 	padding: 0 !important;
 }
