@@ -2313,3 +2313,9 @@ img.aligncenter{
 	margin: 0 auto !important;
 	padding: 0 !important;
 }
+
+.xorigoi_epikinonias_wrapper a {
+	border: 0 !important;
+	text-decoration: none !important;
+	background-image: none !important;
+}
