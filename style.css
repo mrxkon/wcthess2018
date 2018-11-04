@@ -2301,7 +2301,7 @@ img.aligncenter{
 .xorigoi_epikinonias_wrapper {
 	display: grid;
 	grid-template-columns: 33fr 33fr 33fr;
-	grid-gap: 10px;
+	grid-gap: 50px;
 	align-items: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
