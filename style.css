@@ -2303,10 +2303,12 @@ img.aligncenter{
 	grid-template-columns: 33fr 33fr 33fr;
 	grid-gap: 10px;
 	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .xorigoi_epikinonias_wrapper img {
 	max-width: 150px !important;
-	margin: 0 !important;
+	margin: 0 auto !important;
 	padding: 0 !important;
 }
