@@ -8,7 +8,13 @@
 /**************************
 		 General
 ***************************/
-
+/* Tickets Season */
+div.wcb-session-favourite-icon a.fav-session-button{
+	background-image:none!important;
+}
+.dashicons.dashicons-star-filled{
+	display: none;
+}
 
 .updated,
 #content-widget-1 h2,
